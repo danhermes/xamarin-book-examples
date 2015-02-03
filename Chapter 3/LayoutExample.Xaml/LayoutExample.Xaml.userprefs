@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Droid/LayoutExample.Xaml.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Jelly Bean)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LayoutExample.Xaml/Views/SubContentView.xaml">
+    <Files>
+      <File FileName="LayoutExample.Xaml/Views/AbsoluteLayoutExample.xaml" Line="171" Column="171" />
+      <File FileName="LayoutExample.Xaml/Views/ContentViewExample.xaml" Line="271" Column="271" />
+      <File FileName="LayoutExample.Xaml/Views/FrameExample.xaml" Line="184" Column="184" />
+      <File FileName="LayoutExample.Xaml/Views/GridExample1.xaml" Line="184" Column="184" />
+      <File FileName="LayoutExample.Xaml/Views/GridExample2.xaml" Line="184" Column="184" />
+      <File FileName="LayoutExample.Xaml/Views/GridExample3.xaml" Line="184" Column="184" />
+      <File FileName="LayoutExample.Xaml/Views/RelativeLayoutExample.xaml" Line="207" Column="207" />
+      <File FileName="LayoutExample.Xaml/Views/StackLayoutExample.xaml" Line="190" Column="190" />
+      <File FileName="LayoutExample.Xaml/Views/StackLayoutExample2.xaml" Line="191" Column="191" />
+      <File FileName="LayoutExample.Xaml/Views/SubContentView.xaml" Line="15" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
