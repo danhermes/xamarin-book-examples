@@ -1,10 +1,10 @@
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample.Droid\bin\Debug\FormsExample.Droid.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\bin\Debug\FormsExample.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\FormsViewGroup.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\packages\Xamarin.Android.Support.v4.19.0.2\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Core.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
+E:\My Documents\Lexicon Systems\THE BOOK\CODE\xamarin-book-examples\Chapter 2\FormsExample\FormsExample\FormsExample.Droid\bin\Debug\FormsExample.Droid.dll
+E:\My Documents\Lexicon Systems\THE BOOK\CODE\xamarin-book-examples\Chapter 2\FormsExample\FormsExample\FormsExample\bin\Debug\FormsExample.dll
+E:\My Documents\Lexicon Systems\THE BOOK\CODE\xamarin-book-examples\Chapter 2\FormsExample\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\FormsViewGroup.dll
+E:\My Documents\Lexicon Systems\THE BOOK\CODE\xamarin-book-examples\Chapter 2\FormsExample\packages\Xamarin.Android.Support.v4.19.0.2\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
+E:\My Documents\Lexicon Systems\THE BOOK\CODE\xamarin-book-examples\Chapter 2\FormsExample\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Core.dll
+E:\My Documents\Lexicon Systems\THE BOOK\CODE\xamarin-book-examples\Chapter 2\FormsExample\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
+E:\My Documents\Lexicon Systems\THE BOOK\CODE\xamarin-book-examples\Chapter 2\FormsExample\packages\Xamarin.Forms.1.3.1.6296\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.Concurrent.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.Annotations.dll
