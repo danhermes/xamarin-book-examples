@@ -1,5 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
+using System.Threading.Tasks;
 
 namespace FormsExample
 {
@@ -59,7 +60,16 @@ namespace FormsExample
 	            Aspect = Aspect.AspectFit,
 	            HorizontalOptions = LayoutOptions.End,
 	            VerticalOptions = LayoutOptions.Fill
-            }; 
+            };
+
+            var tapGestureRecognizer = new TapGestureRecognizer();
+            tapGestureRecognizer.Tapped +=  async (sender, e) =>
+            {
+                image.Opacity = .5;
+                await Task.Delay(200);
+                image.Opacity = 1;
+            };
+            image.GestureRecognizers.Add(tapGestureRecognizer);
 
             StackLayout stackLayout = new StackLayout
             {
