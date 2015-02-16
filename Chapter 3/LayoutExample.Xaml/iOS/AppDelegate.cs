@@ -16,7 +16,20 @@ namespace LayoutExample.Xaml.iOS
 
             LoadApplication(new App());
 
+            SetTitleFont(UIColor.Red);
+
             return base.FinishedLaunching(app, options);
+        }
+
+        public void SetTitleFont (UIColor foregroundColor)
+        {
+            var TitleAttr = new UIStringAttributes {
+                ForegroundColor = foregroundColor,
+               // Font = UIFont.FromName (fontName, fontSize),
+                KerningAdjustment = 2
+            }; 
+
+            UINavigationBar.Appearance.TitleTextAttributes = TitleAttr;
         }
     }
 }

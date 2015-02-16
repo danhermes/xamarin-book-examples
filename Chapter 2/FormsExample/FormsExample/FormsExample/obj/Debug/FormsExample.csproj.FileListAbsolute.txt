@@ -1,9 +1,0 @@
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\bin\Debug\FormsExample.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\bin\Debug\FormsExample.pdb
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\bin\Debug\Xamarin.Forms.Core.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\bin\Debug\Xamarin.Forms.Xaml.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\bin\Debug\Xamarin.Forms.Core.xml
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\bin\Debug\Xamarin.Forms.Xaml.xml
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\obj\Debug\FormsExample.csprojResolveAssemblyReference.cache
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\obj\Debug\FormsExample.dll
-E:\My Documents\Lexicon Systems\THE BOOK\CODE\Chapter 2\Xamarin.Forms\FormsExample\FormsExample\FormsExample\obj\Debug\FormsExample.pdb
