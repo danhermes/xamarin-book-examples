@@ -73,7 +73,7 @@ namespace ControlExamples
 			{
 				Minimum = 0,
 				Maximum = 10,
-				Increment = 0.1,
+				Increment = 1,
 				HorizontalOptions = LayoutOptions.Center,
 				VerticalOptions = LayoutOptions.CenterAndExpand
 			};
@@ -86,9 +86,12 @@ namespace ControlExamples
             // Slider  slider = new Slider  (0 ,100 ,50); // alternative declaration
 			Slider slider = new Slider
 			{
-				Minimum = 0,
-				Maximum = 100,
-				VerticalOptions = LayoutOptions.CenterAndExpand
+                Minimum = 0,
+                Maximum = 100,
+                Value = 50,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                WidthRequest = 300
+
 			};
 
             slider.ValueChanged += (sender, e) =>
@@ -110,6 +113,7 @@ namespace ControlExamples
                 label2.Text = switcher.IsToggled.ToString();
             };
 
+            this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
 
 			this.Content = new StackLayout {
 				HorizontalOptions = LayoutOptions.Center,
