@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FormsExample.ContentPageExample">
+	<ContentPage.Padding>
+	    <OnPlatform x:TypeArguments="Thickness">
+	      <OnPlatform.iOS>
+	        10, 20, 10, 5
+	      </OnPlatform.iOS>
+	      <OnPlatform.Android>
+	        10, 0, 10, 5
+	      </OnPlatform.Android>
+	      <OnPlatform.WinPhone>
+	        10, 0, 10, 5
+	      </OnPlatform.WinPhone>
+	    </OnPlatform>
+	</ContentPage.Padding>
+	<ContentPage.Content>
+		<ScrollView VerticalOptions="FillAndExpand">
+			<StackLayout HeightRequest="1500">
+				<Label Text = "Label" FontSize="40" HorizontalOptions="Center" />
+				<Label FontSize="20" HorizontalOptions="CenterAndExpand">
+					<Label.Text>
+This control is great for
+displaying one or more
+lines of text.
+					</Label.Text>
+				</Label>
+				<Button Text = "Make It So" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Fill" Clicked="ButtonClicked" />
+				<Entry Placeholder="Username" VerticalOptions="Center" Keyboard="Text" />
+				<BoxView Color="Silver" WidthRequest="150" HeightRequest="150" HorizontalOptions="StartAndExpand" VerticalOptions="Fill" />
+				<Image Source="monkey.png" Aspect="AspectFit" HorizontalOptions="End" VerticalOptions="Fill" >
+					<Image.GestureRecognizers>
+        				<TapGestureRecognizer Tapped="ImageTapped"/>
+    				</Image.GestureRecognizers>
+				</Image>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
