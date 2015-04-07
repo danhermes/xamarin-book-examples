@@ -6,8 +6,8 @@ namespace ControlExamples
 {	
 	public partial class Controls : ContentPage
 	{	
-		Label label;
-        Label label2;
+		Label eventValue;
+        Label pageValue;
 
        //  Note that there are a couple of options for retrieving the selection value for 
        //  many of these views and those options will be placed in each of the two Label 
@@ -15,10 +15,10 @@ namespace ControlExamples
 
         public Controls()
 		{
-			label = new Label();
-			label.Text = "Label";
-            label2 = new Label();
-            label2.Text = "Label2";
+			eventValue = new Label();
+			eventValue.Text = "Value in Handler";
+            pageValue = new Label();
+            pageValue.Text = "Value in Page";
 
 
             Picker picker = new Picker
@@ -36,7 +36,7 @@ namespace ControlExamples
 
             picker.SelectedIndexChanged += (sender, args) =>
             {
-                label.Text = picker.Items[picker.SelectedIndex];
+                pageValue.Text = picker.Items[picker.SelectedIndex];
             }; 
 
 
@@ -48,8 +48,8 @@ namespace ControlExamples
 
 			datePicker.DateSelected += (object sender, DateChangedEventArgs e) => 
             {
-                label.Text = e.NewDate.ToString();
-                label2.Text = datePicker.Date.ToString();
+                eventValue.Text = e.NewDate.ToString();
+                pageValue.Text = datePicker.Date.ToString();
             };
 
 
@@ -64,7 +64,7 @@ namespace ControlExamples
             {
                 if (e.PropertyName == TimePicker.TimeProperty.PropertyName)
                 {
-                    label.Text = timePicker.Time.ToString();
+                    pageValue.Text = timePicker.Time.ToString();
                 }
             };
 
@@ -79,8 +79,8 @@ namespace ControlExamples
 			};
             stepper.ValueChanged += (sender, e) =>
             {
-                label.Text = String.Format("Stepper value is {0:F1}", e.NewValue);
-                label2.Text = stepper.Value.ToString();
+                eventValue.Text = String.Format("Stepper value is {0:F1}", e.NewValue);
+                pageValue.Text = stepper.Value.ToString();
             };
 
             // Slider  slider = new Slider  (0 ,100 ,50); // alternative declaration
@@ -96,8 +96,8 @@ namespace ControlExamples
 
             slider.ValueChanged += (sender, e) =>
             {
-                label.Text = String.Format("Slider value is {0:F1}", e.NewValue);
-                label2.Text = slider.Value.ToString();
+                eventValue.Text = String.Format("Slider value is {0:F1}", e.NewValue);
+                pageValue.Text = slider.Value.ToString();
             };
 
 
@@ -109,8 +109,8 @@ namespace ControlExamples
 
             switcher.Toggled += (sender, e) =>
             {
-       			label.Text = String.Format("Switch is now {0}", e.Value);
-                label2.Text = switcher.IsToggled.ToString();
+       			eventValue.Text = String.Format("Switch is now {0}", e.Value);
+                pageValue.Text = switcher.IsToggled.ToString();
             };
 
             this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
@@ -118,8 +118,8 @@ namespace ControlExamples
 			this.Content = new StackLayout {
 				HorizontalOptions = LayoutOptions.Center,
 				Children = {
-					label,
-   					label2,
+					eventValue,
+   					pageValue,
                     picker,
 					datePicker,
 					timePicker,
