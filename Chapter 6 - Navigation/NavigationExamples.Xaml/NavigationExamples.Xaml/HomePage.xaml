@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Xamarin.Forms Navigation" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NavigationExamples.HomePage">
+	<ContentPage.Content>
+		<TableView Intent="Menu">
+		        <TableView.Root>
+            <TableSection Title="Chapter 6 examples">     
+                <TextCell Text = "Hierarchical Navigation Using NavigationPage" Tapped="navigateToPage" CommandParameter="NavigationPage1" />
+                <TextCell Text = "Dropdown Menu Using ToolbarItems" Tapped="navigateToPage" CommandParameter="DropdownMenu" />
+				<TextCell Text = "Modal Navigation Using NavigationPage" Tapped="navigateToPage" CommandParameter="ModalPage" />
+				<TextCell Text = "Alerts Using DisplayAlert" Tapped="navigateToPage" CommandParameter="Alerts" />
+                <TextCell Text = "Drilldown Using ListView by Item" Tapped="navigateToPage" CommandParameter="DrilldownListViewByItem" />
+                <TextCell Text = "Drilldown Using ListView by Page" Tapped="navigateToPage" CommandParameter="DrilldownListViewByPage" />
+                <TextCell Text = "Drilldown TableView for Grouping" Tapped="navigateToPage" CommandParameter="DrilldownTableView" />
+                <TextCell Text = "Popup Menu Using ActionSheet" Tapped="navigateToPage" CommandParameter="PopupMenu" />
+                <TextCell Text = "Disk Persistence Using the Properties Dictionary" Tapped="navigateToPage" CommandParameter="PropertiesPage1" />
+                <TextCell Text = "Using a Static Global Class" Tapped="navigateToPage" CommandParameter="GlobalPage1" />
+                <TextCell Text = "Drilldown Using ListView by Page" Tapped="navigateToPage" CommandParameter="DrilldownListViewByPage" />
+                <TextCell Text = "Drilldown Using TableView" Tapped="navigateToPage" CommandParameter="DrilldownTableView" />
+                <TextCell Text = "Tabs Using TabbedPage" Tapped="navigateToPage" CommandParameter="TabPage" />
+                <TextCell Text = "Data-bound Tabs Using TabbedPage" Tapped="navigateToPage" CommandParameter="TabPageDatabound" />
+                <TextCell Text = "Springboard Using Grid" Tapped="navigateToPage" CommandParameter="Springboard" />
+                <TextCell Text = "Carousel Using CarouselPage" Tapped="navigateToPage" CommandParameter="Carousel" />
+            </TableSection>
+        </TableView.Root>
+		</TableView>
+	</ContentPage.Content>
+</ContentPage>

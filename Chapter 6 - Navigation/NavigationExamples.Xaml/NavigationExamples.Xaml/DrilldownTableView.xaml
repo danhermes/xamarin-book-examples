@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Drilldown List Using TableView" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NavigationExamples.DrilldownTableView">
+	<ContentPage.Content>
+		<TableView Intent="Menu">
+	        <TableView.Root>
+		        <TableSection Title="Hindi">
+		        	<TextCell Text="Prathama" Tapped="navigateToPage" CommandParameter="FirstPage" />
+		        	<TextCell Text="Dūsarā" Tapped="navigateToPage" CommandParameter="SecondPage" />
+		        	<TextCell Text="Tīsarā" Tapped="navigateToPage" CommandParameter="ThirdPage" />
+		        </TableSection>
+		        <TableSection Title="Español">
+		        	<TextCell Text="Primero" Tapped="navigateToPage" CommandParameter="FirstPage" />
+		        	<TextCell Text="Segundo" Tapped="navigateToPage" CommandParameter="SecondPage" />
+		        	<TextCell Text="Tercera" Tapped="navigateToPage" CommandParameter="ThirdPage" />
+		        </TableSection>
+		        <TableSection Title="English">
+		        	<TextCell Text="First" Tapped="navigateToPage" CommandParameter="FirstPage" />
+		        	<TextCell Text="Second" Tapped="navigateToPage" CommandParameter="SecondPage" />
+		        	<TextCell Text="Third" Tapped="navigateToPage" CommandParameter="ThirdPage" />
+		        </TableSection>
+	        </TableView.Root>
+		</TableView>
+	</ContentPage.Content>
+</ContentPage>

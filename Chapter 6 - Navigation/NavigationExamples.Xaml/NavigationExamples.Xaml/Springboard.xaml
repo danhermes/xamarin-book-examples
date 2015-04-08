@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Springboard Using Grid" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NavigationExamples.Springboard">
+	<ContentPage.Content>
+		<Grid VerticalOptions="FillAndExpand" RowSpacing="65" ColumnSpacing="65" Padding="60" >
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+			<Image x:Name="FirstImage" Grid.Column="0" Grid.Row="0" Source="first.png" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+			<Image x:Name="SecondImage" Grid.Column="0" Grid.Row="1" Source="second.png" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+			<Image x:Name="ThirdImage" Grid.Column="0" Grid.Row="2" Source="third.png" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
