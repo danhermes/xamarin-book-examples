@@ -1,6 +1,8 @@
 # xamarin-book-examples
 These are the complete code examples for <i>Xamarin Mobile Application Development</i>, a book written by Dan Hermes and published by Apress that is an authoritative, four-hundred page journey through Xamarin.Forms, Xamarin.iOS, and Xamarin.Android, covering the entire breadth of the Xamarin platform!  These 200+ code examples are freely downloadable here on GitHub and include both C# and XAML. 
 
+Chapter 2 contains an intro example for just Xamarin.Forms.
+
 Chapters 3-8 folders each contain four solution folders:
 
 Xamarin.Forms C# <br/>
@@ -8,7 +10,9 @@ Xamarin.Forms XAML  <br/>
 Xamarin.Android  <br/>
 Xamarin.iOS <br/>
 
-Chapter 2 contains an intro example for just Xamarin.Forms.
+The first two solutions in each chapter folder are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only.
+
+In other words, <i>it's all here</i>.
 
 Many thanks to Alex Blount and Jason Awbrey for their XAML contributions! 
 
