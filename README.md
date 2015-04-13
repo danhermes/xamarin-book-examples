@@ -3,7 +3,7 @@ These are the complete code examples for <i>Xamarin Mobile Application Developme
 
 Chapter 2 contains an intro example for just Xamarin.Forms.
 
-Chapters 3-8 folders each contain four solution folders:
+Chapters 3-8 each contain <i>four</i> solution folders:
 
 Xamarin.Forms C# <br/>
 Xamarin.Forms XAML  <br/>
