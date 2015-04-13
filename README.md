@@ -1,5 +1,5 @@
 # xamarin-book-examples
-These are the complete code examples for <i>Xamarin Mobile Application Development</i>, a book written by Dan Hermes and published by Apress that is an authoritative, four-hundred page journey through Xamarin.Forms, Xamarin.iOS, and Xamarin.Android, covering the entire breadth of the Xamarin platform!  These 200+ code examples are freely downloadable here on GitHub and include both C# and XAML. 
+These are the complete code examples for <i>Xamarin Mobile Application Development</i>, a book written by Dan Hermes and published by Apress that is an authoritative, four-hundred page journey through Xamarin.Forms, Xamarin.iOS, and Xamarin.Android, covering the entire breadth of the Xamarin platform!  These 200+ code examples are freely downloadable and include both C# and XAML. 
 
 Chapter 2 contains an intro example for just Xamarin.Forms.
 
