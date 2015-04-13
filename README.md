@@ -10,6 +10,9 @@ Xamarin.iOS <br/>
 
 Chapter 2 contains an intro example for just Xamarin.Forms.
 
+Many thanks to Alex Blount and Jason Awbrey for their XAML contributions! 
+
 The book that these code examples come from, <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">Xamarin Mobile Application Development, is available at Amazon.com here</href>.
+
 
 
