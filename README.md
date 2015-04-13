@@ -11,11 +11,7 @@ Chapters 3-8 each contain <i>four</i> solution folders:
 <li>Xamarin.Android</li>
 <li>Xamarin.iOS</li>
 </ul>
-The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter.
-
-In other words, whether you're coding Xamarin.Forms C#, XAML, Xamarin.Android, or Xamarin.iOS: <i>it's all here</i>.
-
-Many thanks to Alex Blount and Jason Awbrey for their XAML contributions! 
+The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter. In other words, whether you're coding Xamarin.Forms C#, XAML, Xamarin.Android, or Xamarin.iOS: <i>it's all here</i>.
 
 The book that these code examples came from, <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">Xamarin Mobile Application Development, is available at Amazon.com here</href>.
 
@@ -44,3 +40,4 @@ Chapter 8 - Custom Renderers<br/>
 Custom Renderers allow us to go deeper than the out-of-the-box Xamarin.Forms views and take advantage of platform-specific UI feature sets while keeping a cross-platform approach.
 
 
+Many thanks to Alex Blount and Jason Awbrey for their XAML contributions! 
