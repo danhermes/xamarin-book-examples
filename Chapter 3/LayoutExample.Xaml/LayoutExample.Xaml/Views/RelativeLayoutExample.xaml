@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LayoutExample.Xaml.Views.RelativeLayoutExample" x:Name="Self" Padding="10,10,10,5">
-	<RelativeLayout x:Name="LayoutContainer">
-		<Label x:Name="UpperLeft" Text="Upper Left" FontSize="20" RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=0}" RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}" />
-		<Label Text="Constants are Absolute" FontSize="20" RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=100}" RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=100}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=Constant, Constant=50}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=Constant, Constant=200}" />
-		<Label Text="Halfway down and across" FontSize="15" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" />
-		<BoxView Color="Accent" HorizontalOptions="Start" VerticalOptions="StartAndExpand" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" />
-	</RelativeLayout>
-</ContentPage>
