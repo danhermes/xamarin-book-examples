@@ -38,6 +38,6 @@ Data binding is consistent and cross-platform when using Xamarin.Forms. Modeled 
 
 Chapter 8 - Custom Renderers<br/>
 Custom Renderers allow us to go deeper than the out-of-the-box Xamarin.Forms views and take advantage of platform-specific UI feature sets while keeping a cross-platform approach.
-
-
+<br/>
+<br/>
 Many thanks to Alex Blount and Jason Awbrey for their XAML contributions! 
