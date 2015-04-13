@@ -12,7 +12,7 @@ Xamarin.iOS <br/>
 
 The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter.
 
-In other words, <i>it's all here</i>.
+In other words, whether you're coding Xamarin.Forms C#, XAML, Xamarin.Android, or Xamarin.iOS: <i>it's all here</i>.
 
 Many thanks to Alex Blount and Jason Awbrey for their XAML contributions! 
 
