@@ -5,11 +5,12 @@ Chapter 2 contains an intro example for just Xamarin.Forms.
 
 Chapters 3-8 each contain <i>four</i> solution folders:
 
-Xamarin.Forms C# <br/>
-Xamarin.Forms XAML  <br/>
-Xamarin.Android  <br/>
-Xamarin.iOS <br/>
-
+<ul>
+<li>Xamarin.Forms C#</li>
+<li>Xamarin.Forms XAML</li>
+<li>Xamarin.Android</li>
+<li>Xamarin.iOS</li>
+</ul>
 The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter.
 
 In other words, whether you're coding Xamarin.Forms C#, XAML, Xamarin.Android, or Xamarin.iOS: <i>it's all here</i>.
