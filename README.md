@@ -41,6 +41,6 @@ Chapter 7 - Data Binding and Data Access <br/>
 Data binding is consistent and cross-platform when using Xamarin.Forms. Modeled after data binding in WPF, the MVVM pattern is central to its implementation. In code we bind control fields to our data model and the binding mechanism is automatic. A manual implementation of a PropertyChanged event allows your code to stay in sync with the data source. The mobile data layer departs from the designs we are accustomed to in web apps and more closely resembles those found in desktop apps. 
 
 Chapter 8 - Custom Renderers<br/>
-Custom Renderers allow us to go deeper than the out-of-the-box Xamarin.Forms UI controls and take advantage of platform-specific UI feature sets while keeping a cross-platform approach.
+Custom Renderers allow us to go deeper than the out-of-the-box Xamarin.Forms views and take advantage of platform-specific UI feature sets while keeping a cross-platform approach.
 
 
