@@ -10,7 +10,7 @@ Xamarin.Forms XAML  <br/>
 Xamarin.Android  <br/>
 Xamarin.iOS <br/>
 
-The first two solutions in each chapter folder are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only.
+The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter.
 
 In other words, <i>it's all here</i>.
 
