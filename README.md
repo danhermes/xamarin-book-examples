@@ -25,21 +25,21 @@ Here is the chapter content: (no code examples in Chapter 1)<br/>
 <b>Chapter 2 - Building Mobile User Interfaces (Xamarin.Forms Intro)</b><br/>
 A Xamarin.Forms primer and a comparison of Xamarin.Forms vs. Platform-specific approaches such as Xamarin.iOS and Xamarin.Android. Covers Xamarin.Forms Pages, Layouts, and Views.
 
-Chapter 3 - UI Design Using Layouts<br/>
+<b>Chapter 3 - UI Design Using Layouts</b><br/>
 Layouts help us organize the positioning and formatting of controls, allowing us to structure and design the screens of our mobile app. 
 
-Chapter 4- User Interaction Using Controls  (Views)<br/>
+<b>Chapter 4- User Interaction Using Controls  (Views)</b><br/>
 Controls facilitate user interaction and data entry which is unique to the mobile user interface and differs substantially from the PC/mouse interface, largely due the use of gestures. 
 
-Chapter 5- Making a Scrollable List<br/>
+<b>Chapter 5- Making a Scrollable List</b><br/>
 Lists are one of the most powerful methods of data display and selection in mobile apps.
 
-Chapter 6- Navigation <br/>
+<b>Chapter 6- Navigation </b><br/>
 Navigation lets a user traverse an app, move from screen to screen, and access features. Hierarchical navigation, modal screens, navigation drawers, alerts, drilldown lists, and other key patterns make up the core of mobile UI navigation.	State Management is the handling of data passed between screens as the user navigates through the app. 
 
-Chapter 7 - Data Binding and Data Access <br/>
+<b>Chapter 7 - Data Binding and Data Access </b><br/>
 Data binding is consistent and cross-platform when using Xamarin.Forms. Modeled after data binding in WPF, the MVVM pattern is central to its implementation. In code we bind control fields to our data model and the binding mechanism is automatic. A manual implementation of a PropertyChanged event allows your code to stay in sync with the data source. The mobile data layer departs from the designs we are accustomed to in web apps and more closely resembles those found in desktop apps. 
 
-Chapter 8 - Custom Renderers<br/>
+<b>Chapter 8 - Custom Renderers</b><br/>
 Custom Renderers allow us to go deeper than the out-of-the-box Xamarin.Forms views and take advantage of platform-specific UI feature sets while keeping a cross-platform approach.
 
