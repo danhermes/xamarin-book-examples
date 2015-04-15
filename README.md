@@ -1,5 +1,5 @@
 # xamarin-book-examples
-These are the complete code examples for the Apress book by Dan Hermes entitled <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin"><i>Xamarin Mobile Application Development</i></a>, an authoritative, four-hundred page journey through Xamarin.Forms, Xamarin.iOS, and Xamarin.Android, covering the entire breadth of the Xamarin platform!  These 200+ code examples are freely downloadable and include both C# and XAML. 
+These are the complete code examples for the Apress book by Dan Hermes entitled <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin"><i>Xamarin Mobile Application Development</i></a>, an authoritative, four-hundred page journey through Xamarin.Forms, Xamarin.iOS, and Xamarin.Android, covering the entire breadth of the Xamarin platform!  These 200+ code examples are freely downloadable and include both C# and XAML.
 
 Many thanks to Alex Blount (now a developer at Xamarin) and Xamarin MVP Jason Awbrey for their XAML contributions and to Xamarin MVP Ed Snider for his tech review of all of this code. 
 
