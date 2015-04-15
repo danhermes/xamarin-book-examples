@@ -15,7 +15,7 @@ The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS,
 
 The book that these code examples came from, <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">Xamarin Mobile Application Development, is available at Amazon.com here</a>.
 <br/> <br/>
-Many thanks to Alex Blount and Jason Awbrey for their XAML contributions! 
+Many thanks to Alex Blount and Jason Awbrey for their XAML contributions and to Ed Snider for tech review. 
 <br/> <br/>
 Here is the chapter content: (no code examples in Chapter 1)<br/>
 
