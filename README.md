@@ -22,7 +22,7 @@ The book that these code examples came from, Xamarin Mobile Application Developm
 <h2>What Are These Chapters About?</h2>
 Here is the chapter content: (no code examples in Chapter 1)<br/>
 
-Chapter 2 - Building Mobile User Interfaces (Xamarin.Forms Intro)<br/>
+<b>Chapter 2 - Building Mobile User Interfaces (Xamarin.Forms Intro)</b><br/>
 A Xamarin.Forms primer and a comparison of Xamarin.Forms vs. Platform-specific approaches such as Xamarin.iOS and Xamarin.Android. Covers Xamarin.Forms Pages, Layouts, and Views.
 
 Chapter 3 - UI Design Using Layouts<br/>
