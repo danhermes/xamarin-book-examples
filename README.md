@@ -23,7 +23,7 @@ The book that these code examples came from, Xamarin Mobile Application Developm
 Here is the chapter content: (no code examples in Chapter 1)<br/>
 
 Chapter 2 - Building Mobile User Interfaces (Xamarin.Forms Intro)<br/>
-Screens, views, or pages are similar to the web and desktop equivalents in C#, using controls with methods and properties and firing events that we handle in our controllers. Includes a Xamarin.Forms primer and a comparison of Xamarin.Forms vs. Platform-specific approaches such as Xamarin.iOS and Xamarin.Android. 
+A Xamarin.Forms primer and a comparison of Xamarin.Forms vs. Platform-specific approaches such as Xamarin.iOS and Xamarin.Android. Covers Xamarin.Forms Pages, Layouts, and Views.
 
 Chapter 3 - UI Design Using Layouts<br/>
 Layouts help us organize the positioning and formatting of controls, allowing us to structure and design the screens of our mobile app. 
