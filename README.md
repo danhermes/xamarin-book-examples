@@ -5,7 +5,7 @@ Many thanks to Alex Blount (now at Xamarin) and Xamarin MVP Jason Awbrey for the
 
 <h2>What's In Here?</h2>
 
-The book covers both Xamarin.Forms and platform-specific techniques using Xamarin.iOS and Xamarin.Android, so this code repository contains solutions for all three of those approaches in C# as well as XAML code examples. Chapter 2 starts with an intro example for just Xamarin.Forms, but Chapters 3-8 each contain <i>four</i> solution folders:
+The book covers both Xamarin.Forms and platform-specific techniques using Xamarin.iOS and Xamarin.Android, so this code repository contains solutions for all three of those approaches in C# as well as the equivalent XAML. Chapter 2 starts with an intro example for just Xamarin.Forms, but Chapters 3-8 each contain <i>four</i> solution folders:
 <ul>
 <li>Xamarin.Forms C#</li>
 <li>Xamarin.Forms XAML</li>
