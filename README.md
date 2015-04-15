@@ -3,7 +3,7 @@ These are the complete code examples for the Apress book by Dan Hermes entitled 
 
 Many thanks to Alex Blount (now at Xamarin) and Xamarin MVP Jason Awbrey for their XAML contributions and to Xamarin MVP Ed Snider for his tech review of all of this code. 
 
-<h1>What's In Here?</h1>
+<h2>What's In Here?</h2>
 
 Chapter 2 contains an intro example for just Xamarin.Forms.
 
@@ -19,6 +19,7 @@ The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS,
 
 The book that these code examples came from, <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">Xamarin Mobile Application Development, is available at Amazon.com here</a>.
 <br/> <br/>
+<h2>What Are These Chapters About?</h2>
 Here is the chapter content: (no code examples in Chapter 1)<br/>
 
 Chapter 2 - Building Mobile User Interfaces (Xamarin.Forms Intro)<br/>
