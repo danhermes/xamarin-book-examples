@@ -3,6 +3,8 @@ These are the complete code examples for the Apress book by Dan Hermes entitled 
 
 Many thanks to Alex Blount (now at Xamarin) and Xamarin MVP Jason Awbrey for their XAML contributions and to Xamarin MVP Ed Snider for his tech review of all of this code. 
 
+<h1>What's In These Chapter Examples?</h1>
+
 Chapter 2 contains an intro example for just Xamarin.Forms.
 
 Chapters 3-8 each contain <i>four</i> solution folders:
