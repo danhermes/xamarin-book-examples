@@ -14,7 +14,7 @@ The book covers both Xamarin.Forms and platform-specific techniques using Xamari
 </ul>
 The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter. In other words, whether you're coding Xamarin.Forms C#, Xamarin.Forms XAML, Xamarin.Android, or Xamarin.iOS: <i>it's all here</i>.
 
-The book that these code examples came from, Xamarin Mobile Application Development, is <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">available at Amazon.com here</a>.
+The book that these code examples came from, Xamarin Mobile Application Development, is <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">available at Amazon.com here</a>. This is a code-first book focusing on Xamarin development using C#, not design or development tools - or XAML. The XAML code examples here are just an added bonus.
 <br/>
 <h2>What Are These Chapters About?</h2>
 Here is the chapter content: (no code examples in Chapter 1)<br/>
