@@ -1,28 +1,26 @@
 ﻿using System;
 
 using Android.App;
+using Android.Content.PM;
 using Android.Content;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-using Xamarin.Forms.Platform.Android;
-
 
 namespace LayoutExample.Android
 {
-	[Activity (Label = "LayoutExample.Android.Android", MainLauncher = true)]
-	public class MainActivity : AndroidActivity
-	{
-		protected override void OnCreate (Bundle bundle)
-		{
-			base.OnCreate (bundle);
+    [Activity(Label = "LayoutExample.Android", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
+    {
+        protected override void OnCreate(Bundle bundle)
+        {
+            base.OnCreate(bundle);
 
-			Xamarin.Forms.Forms.Init (this, bundle);
-
-			SetPage (App.GetMainPage ());
-		}
-	}
+            global::Xamarin.Forms.Forms.Init(this, bundle);
+            LoadApplication(new App());
+        }
+    }
 }
 

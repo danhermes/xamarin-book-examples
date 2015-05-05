@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePickerExample", "DatePickerExample\DatePickerExample.csproj", "{B9C0E45D-4AF4-4175-A73A-83B28A636972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Release|iPhone.Build.0 = Release|iPhone
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B9C0E45D-4AF4-4175-A73A-83B28A636972}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DatePickerExample\DatePickerExample.csproj
+	EndGlobalSection
+EndGlobal
