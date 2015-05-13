@@ -40,3 +40,6 @@ Data binding is consistent and cross-platform when using Xamarin.Forms. Modeled 
 <b>Chapter 8 - Custom Renderers</b><br/>
 Custom Renderers allow us to go deeper than the out-of-the-box Xamarin.Forms views and take advantage of platform-specific UI feature sets while keeping a cross-platform approach.
 
+<b>Chapter 9 – Cross-platform Architecture</b><br/>
+How to architect a cross-platform application by managing platform-specific code. Project-level options in Xamarin including Portable Class Libraries(PCLs) and Shared Projects. Cross-platform coding techniques including conditional compilation, Dependency Injection(DI), and partial classes. 
+
