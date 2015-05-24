@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:l="clr-namespace:CustomRenderer;assembly=CustomRenderer"
+	x:Class="CustomRenderer.MainPage">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="Center">
+			<l:CustomButton Text="Custom Button" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Fill" Clicked="ButtonClicked" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
