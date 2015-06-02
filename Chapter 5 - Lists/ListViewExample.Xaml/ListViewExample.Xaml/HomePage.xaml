@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+x:Class="ListViewExample.Xaml.HomePage" 
+Title="Xamarin.Forms ListView">
+	<TableView Intent="Menu">
+		<TableView.Root>
+			<TableSection Title="Chapter 5 Examples">
+				<TextCell Text="List of Strings" />
+				<TextCell Text="Data Model" />
+				<TextCell Text="Add Image" />
+				<TextCell Text="Customize ListView" />
+				<TextCell Text="Customize with Image" />
+				<TextCell Text="Customize with Button" />
+				<TextCell Text="Context Actions" />
+				<TextCell Text="Grouping Headers" />
+				<TextCell Text="Custom Grouping Headers" />
+				<TextCell Text="Scroll the List" />
+				<TextCell Text="Optimize Performance" />
+			</TableSection>
+		</TableView.Root>
+	</TableView>
+</ContentPage>
