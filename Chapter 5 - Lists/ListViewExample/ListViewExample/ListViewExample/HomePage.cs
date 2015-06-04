@@ -10,105 +10,48 @@ using Xamarin.Forms;
 
 namespace ListViewExample
 {
+
     class HomePage : ContentPage
     {
         public HomePage()
         {
-            Command<Type> navigateCommand = 
-                new Command<Type>(async (Type pageType) =>
-                {
-                    Page page = (Page)Activator.CreateInstance(pageType);
-                    await this.Navigation.PushAsync(page);
-                });
+            Title = "Xamarin.Forms ListView - Chapter 5";
 
-            this.Title = "Xamarin.Forms ListView";
-            this.Content = new TableView
-                {
-                    Intent = TableIntent.Menu,
-                    Root = new TableRoot
-                    {
-                        new TableSection("Chapter 5 examples")
-                        {
-                            new TextCell
-                            {
-                                Text = "List of Strings",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewStrings)
-                            },
+            var listView = new ListView();
+            listView.ItemsSource = new ListItemPage[] { 
+				new ListItemPage {Title = "Bind to a List of Strings", PageType= typeof(ListViewStrings)}, 
+				new ListItemPage {Title = "Bind to a Data Model", PageType= typeof(ListViewDataModel)},
+				new ListItemPage {Title = "Add Image", PageType= typeof(ListViewImageCell)},
+                new ListItemPage {Title = "Customize ListView", PageType= typeof(ListViewCustom)}, 
+				new ListItemPage {Title = "Customize with Image", PageType= typeof(ListViewCustomWithImage)},
+				new ListItemPage {Title = "Customize with Button", PageType= typeof(ListViewButton)}, 
+                new ListItemPage {Title = "Add ContextAction", PageType= typeof(ListViewContextAction)}, 
+				new ListItemPage {Title = "Grouping Headers", PageType= typeof(ListViewGrouped)},
+				new ListItemPage {Title = "Customize Grouping Headers", PageType= typeof(ListViewGroupingTemplate)},
+                new ListItemPage {Title = "Scroll the List", PageType= typeof(ListViewScroll)}, 
+				new ListItemPage {Title = "Optimize Performance", PageType= typeof(ListViewPerformance)}
+			};
+            listView.ItemTemplate = new DataTemplate(typeof(TextCell));
+            listView.ItemTemplate.SetBinding(TextCell.TextProperty, "Title");
 
-                            new TextCell
-                            {
-                                Text = "Data Model",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewDataModel)
-                            },
+            listView.ItemTapped += async (sender, args) =>
+            {
+                var item = args.Item as ListItemPage;
+                if (item == null) return;
+                Page page = (Page)Activator.CreateInstance(item.PageType);
+                await Navigation.PushAsync(page);
+                listView.SelectedItem = null;
+            };
 
-                            new TextCell
-                            {
-                                Text = "Add Image",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewImageCell)
-                            },
-
-                            new TextCell
-                            {
-                                Text = "Customize ListView",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewCustom)
-                            },
-
-                            new TextCell
-                            {
-                                Text = "Custom with Image",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewCustomWithImage)
-                            },
-
-                            new TextCell
-                            {
-                                Text = "Custom with Button",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewButton)
-                            },
-
-                            new TextCell
-                            {
-                                Text = "Context Actions",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewContextAction)
-                            },
-
-                            new TextCell
-                            {
-                                Text = "Grouping Headers",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewGrouped)
-                            },
-
-                            new TextCell
-                            {
-                                Text = "Custom Grouping Headers",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewGroupingTemplate)
-                            },
-
-                            new TextCell
-                            {
-                                Text = "Scroll the List",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewScroll)
-                            },
-
-                            new TextCell
-                            {
-                                Text = "Optimize Performance",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ListViewPerformance)
-                            }
-                        }
-
-                    }
-                };
+            Content = listView;
         }
-    }
+
+        public class ListItemPage
+        {
+            public string Title { get; set; }
+            public Type PageType { get; set; }
+        }
+
+    } 
+
 }

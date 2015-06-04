@@ -4,7 +4,7 @@ using Xamarin.Forms;
 
 namespace ListViewExample
 {
-    class ListViewPerformance : ContentPage // Customizing List Rows
+    class ListViewPerformance : ContentPage 
     {
         public class ListItem
         {
@@ -90,7 +90,7 @@ namespace ListViewExample
    				new ListItem {Source = "first.png", Title = "First", Description="1st item", Price="$100.00"}, 
 				new ListItem {Source = "second.png", Title = "Second", Description="2nd item", Price="$200.00"},
 				new ListItem {Source = "third.png", Title = "Third", Description="3rd item", Price="$200.00"} ,
-                				new ListItem {Source = "first.png", Title = "First", Description="1st item", Price="$100.00"}, 
+                new ListItem {Source = "first.png", Title = "First", Description="1st item", Price="$100.00"}, 
 				new ListItem {Source = "second.png", Title = "Second", Description="2nd item", Price="$200.00"},
 				new ListItem {Source = "third.png", Title = "Third", Description="3rd item", Price="$200.00"}, 
   				new ListItem {Source = "first.png", Title = "First", Description="1st item", Price="$100.00"}, 
