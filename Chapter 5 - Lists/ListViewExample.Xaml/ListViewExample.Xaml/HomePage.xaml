@@ -6,7 +6,7 @@ Title="Xamarin.Forms ListView">
 	<TableView Intent="Menu">
 		<TableView.Root>
 			<TableSection Title="Chapter 5 Examples">
-				<TextCell Text="List of Strings" />
+				<TextCell Text="List of Strings" Command="{Binding NavigateCommand}" CommandParameter="ListViewStrings" />
 				<TextCell Text="Data Model" />
 				<TextCell Text="Add Image" />
 				<TextCell Text="Customize ListView" />
