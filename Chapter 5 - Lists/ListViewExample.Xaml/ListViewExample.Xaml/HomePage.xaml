@@ -3,11 +3,18 @@
 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 x:Class="ListViewExample.Xaml.HomePage" 
 Title="Xamarin.Forms ListView">
+<ContentPage.Padding>
+	<OnPlatform x:TypeArguments="Thickness">
+		<OnPlatform.iOS>10,20,10,5</OnPlatform.iOS>
+		<OnPlatform.WinPhone>10,0,10,5</OnPlatform.WinPhone>
+		<OnPlatform.Android>10,0,10,5</OnPlatform.Android>
+	</OnPlatform>
+</ContentPage.Padding>
 	<TableView Intent="Menu">
 		<TableView.Root>
 			<TableSection Title="Chapter 5 Examples">
 				<TextCell Text="List of Strings" Command="{Binding NavigateCommand}" CommandParameter="ListViewStrings" />
-				<TextCell Text="Data Model" />
+				<TextCell Text="Data Model" Command="{Binding NavigateCommand}" CommandParameter="ListViewDataModel" />
 				<TextCell Text="Add Image" />
 				<TextCell Text="Customize ListView" />
 				<TextCell Text="Customize with Image" />
