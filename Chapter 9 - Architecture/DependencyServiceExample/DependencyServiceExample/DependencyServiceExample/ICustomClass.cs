@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DependencyServiceExample
 {
-    public interface CustomClass
+    public interface ICustomClass
     {
         string GoNative(string param);
     }

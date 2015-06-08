@@ -19,7 +19,7 @@ namespace DependencyServiceExample
             };
             button.Clicked += (sender, e) =>
             {
-                var text = DependencyService.Get<CustomClass>().GoNative("platform-specific implementation complete!");
+                var text = DependencyService.Get<ICustomClass>().GoNative("platform-specific implementation complete!");
                 DisplayAlert("GoNative Called", text, "OK");
             };
             Content = button;
