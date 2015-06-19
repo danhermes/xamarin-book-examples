@@ -15,10 +15,10 @@ The book covers both Xamarin.Forms and platform-specific techniques using Xamari
 <li>Xamarin.Android</li>
 <li>Xamarin.iOS</li>
 </ul>
-For example, in chapter 3, the layout chapter, the solutions look like this:
+For example, in chapter 3, the layout chapter, the solution folders look like this:
 <ul>
 <li>LayoutExample         <- This solution contains the Xamarin.Forms C# examples.</li>
-<li>LayoutExample.Xaml    <- This one has the Xamarin.Forms XAML equivalents.</li>
+<li>LayoutExample.Xaml    <- This solution has the Xamarin.Forms XAML examples.</li>
 <li>LayoutExampleAndroid  <- Here is the Xamarin.Android solution.</li>  
 <li>LayoutExampleiOS      <- And the Xamarin.iOS solution.</li>
 </ul>
