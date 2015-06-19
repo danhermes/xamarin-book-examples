@@ -7,20 +7,18 @@ using UIKit;
 
 namespace iOSListExample
 {
-	public partial class ListModelViewController : UIViewController
+	public partial class ListModelViewControllerCellReuse : UIViewController
 	{
-		public ListModelViewController () 
+		public ListModelViewControllerCellReuse () 
 		{
 		}
 
 		List<ListItem> listItems;
+		public static NSString CellId = new NSString ("CellId");
 
 		public override void DidReceiveMemoryWarning ()
 		{
-			// Releases the view if it doesn't have a superview.
 			base.DidReceiveMemoryWarning ();
-			
-			// Release any cached data, images, etc that aren't in use.
 		}
 
 		public override void ViewDidLoad()
@@ -32,10 +30,8 @@ namespace iOSListExample
 				new ListItem {Title = "Second", Description="2nd item"},
 				new ListItem {Title = "Third", Description="3rd item"} 
 			};
-			//table.SeparatorColor = UIColor.Blue;
-			//table.SeparatorStyle = UITableViewCellSeparatorStyle.SingleLineEtched;
-
-			table.Source = new ListSourceFromCustomCell(listItems);
+			table.RegisterClassForCellReuse (typeof(CustomCell), CellId);
+			table.Source = new ListSourceFromModelCellReuse(listItems);
 			Add (table); 
 		} 
 
