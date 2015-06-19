@@ -26,7 +26,7 @@ A Xamarin.Forms primer and a comparison of Xamarin.Forms vs. Platform-specific a
 <b>Chapter 3 - UI Design Using Layouts</b><br/>
 Layouts help us organize the positioning and formatting of controls, allowing us to structure and design the screens of our mobile app. 
 
-<b>Chapter 4- User Interaction Using Controls  (Views)</b><br/>
+<b>Chapter 4- User Interaction Using Controls</b><br/>
 Controls facilitate user interaction and data entry which is unique to the mobile user interface and differs substantially from the PC/mouse interface, largely due the use of gestures. 
 
 <b>Chapter 5- Making a Scrollable List</b><br/>
