@@ -17,7 +17,7 @@ namespace ListViewExample
         public ListViewPerformance()
         {
             var listView = new ListView();
-            var listItemSource = new ListItem[] { // lots of rows for performance testing (yes, they repeat...deal with it :) )
+            var listItemSource = new ListItem[] { // lots of rows for performance testing (yes, they repeat) )
 				new ListItem {Source = "first.png", Title = "First", Description="1st item", Price="$100.00"}, 
 				new ListItem {Source = "second.png", Title = "Second", Description="2nd item", Price="$200.00"},
 				new ListItem {Source = "third.png", Title = "Third", Description="3rd item", Price="$200.00"}, 
@@ -168,9 +168,6 @@ namespace ListViewExample
             listView.RowHeight = 80;
 			listView.BackgroundColor = Color.Black;
             listView.ItemTemplate = new DataTemplate(typeof(ListItemCell));
-
-            ListItem goItem = listItemSource[25];
-            listView.ScrollTo(goItem, ScrollToPosition.End, true);
 
             Content = listView;
 
