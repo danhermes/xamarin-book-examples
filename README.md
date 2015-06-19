@@ -44,3 +44,27 @@ Custom Renderers allow us to go deeper than the out-of-the-box Xamarin.Forms vie
 <b>Chapter 9 – Cross-platform Architecture</b><br/>
 How to architect a cross-platform application by managing platform-specific code. Project-level options in Xamarin including Portable Class Libraries(PCLs) and Shared Projects. Cross-platform coding techniques including conditional compilation, Dependency Injection(DI), and partial classes. 
 
+
+<h1>FULL BOOK DESCRIPTION</h1>
+
+<h2>Xamarin Mobile Application Development</h2>
+a book by Dan Hermes
+
+Xamarin Mobile Application Development is a hands-on Xamarin.Forms primer and a cross-platform reference for building native Android, iOS, and Windows Phone apps using C# and .NET. This book explains how to use Xamarin.Forms, Xamarin.Android, and Xamarin.iOS to build business apps for your customers and consumer apps for Google Play and the iTunes App Store. 
+Learn how to leverage Xamarin.Forms to optimize cross-platform development using the most common UI pages, layouts, views, controls, and UI patterns. Combine these with platform-specific UI to craft a visually stunning and highly interactive mobile user experience. 
+Explore solution-building techniques from starter-to-enterprise to help you decouple your functional layers, manage your platform-specific code, and share your cross-platform classes for code reuse, testability, and maintainability. 
+This comprehensive recipe and reference book, featuring over 200 C# code examples with downloadable C# and XAML, addresses one of the most important and vexing problems in the software industry today: How do we effectively design and develop cross-platform mobile applications?
+
+What you’ll learn:
+<li>How to build world-class mobile apps for iOS, Android, and Windows Phone using C#</li>
+<li>How to organize your Xamarin code into a professional-grade application architecture</li>
+<li>The latest Xamarin techniques for cross-platform UI using Xamarin.Forms</li>
+<li>When and how to use platform-specific features such as UI and gesture handling</li>
+<li>Data-binding, local data access, data synchronization, and web services for mobile apps</li>
+<li>Cross-platform architecture and design to maximize portability and code reuse</li>
+
+This is book is for C# and ASP.NET developers, architects, and technical managers as well as many Android and iOS developers.
+
+
+
+
