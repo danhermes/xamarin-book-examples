@@ -45,7 +45,7 @@ Custom Renderers allow us to go deeper than the out-of-the-box Xamarin.Forms vie
 How to architect a cross-platform application by managing platform-specific code. Project-level options in Xamarin including Portable Class Libraries(PCLs) and Shared Projects. Cross-platform coding techniques including conditional compilation, Dependency Injection(DI), and partial classes. 
 
 
-<h1>A Bit More About the Book</h1>
+<h2>What Is the Book About?</h2>
 
 Xamarin Mobile Application Development is a hands-on Xamarin.Forms primer and a cross-platform reference for building native Android, iOS, and Windows Phone apps using C# and .NET. This book explains how to use Xamarin.Forms, Xamarin.Android, and Xamarin.iOS to build business apps for your customers and consumer apps for Google Play and the iTunes App Store. 
 
