@@ -56,12 +56,14 @@ Explore solution-building techniques from starter-to-enterprise to help you deco
 This comprehensive recipe and reference book, featuring over 200 C# code examples with downloadable C# and XAML, addresses one of the most important and vexing problems in the software industry today: How do we effectively design and develop cross-platform mobile applications?
 
 What you’ll learn:
+<ul>
 <li>How to build world-class mobile apps for iOS, Android, and Windows Phone using C#</li>
 <li>How to organize your Xamarin code into a professional-grade application architecture</li>
 <li>The latest Xamarin techniques for cross-platform UI using Xamarin.Forms</li>
 <li>When and how to use platform-specific features such as UI and gesture handling</li>
 <li>Data-binding, local data access, data synchronization, and web services for mobile apps</li>
 <li>Cross-platform architecture and design to maximize portability and code reuse</li>
+</ul>
 
 This is book is for C# and ASP.NET developers, architects, and technical managers as well as many Android and iOS developers.
 
