@@ -10,10 +10,17 @@ Ten thousand thanks to Xamarin MVP Ed Snider for his tech review of much of this
 
 The book covers both Xamarin.Forms and platform-specific techniques using Xamarin.iOS and Xamarin.Android so this code repository contains solutions for all three of those approaches in C# as well as their equivalent XAML. Chapter 2 starts with an intro example for just Xamarin.Forms, but Chapters 3-6 (the UI chapters) each contain <i>four</i> solution folders:
 <ul>
-<li>Xamarin.Forms C# (ex. LayoutExample)</li>
-<li>Xamarin.Forms XAML (ex. LayoutExample.Xaml)</li>
-<li>Xamarin.Android (ex. LayoutExampleAndroid)</li>
-<li>Xamarin.iOS (ex. LayoutExampleiOS)</li>
+<li>Xamarin.Forms C#</li>
+<li>Xamarin.Forms XAML</li>
+<li>Xamarin.Android</li>
+<li>Xamarin.iOS</li>
+</ul>
+For example, in chapter 3, the layout chapter, the solutions look like this:
+<ul>
+<li>LayoutExample         <- This solution contains the Xamarin.Forms C# examples.</li>
+<li>LayoutExample.Xaml    <- This one has the Xamarin.Forms XAML equivalents.</li>
+<li>LayoutExampleAndroid  <- Here is the Xamarin.Android solution.</li>  
+<li>LayoutExampleiOS      <- And the Xamarin.iOS solution.</li>
 </ul>
 The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter. In other words, whether you're coding Xamarin.Forms C#, Xamarin.Forms XAML, Xamarin.Android, or Xamarin.iOS: <i>it's all here</i>.
 
