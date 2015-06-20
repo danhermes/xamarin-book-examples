@@ -19,9 +19,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ItemRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DataAccessPagePerson.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ItemDatabaseStatic.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ItemDatabaseBasic.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)DataAccessPageStatic.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DataAccessPageRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DataAccessPageDatabase.cs" />
   </ItemGroup>

@@ -20,7 +20,6 @@ namespace SQLiteNetPCL
 			var listView = new ListView();
 			listView.ItemsSource = new ListItemPage [] { 
 				new ListItemPage {Title = "Basic Repository", PageType= typeof(DataAccessPageDatabase)}, 
-				new ListItemPage {Title = "Static Repository", PageType= typeof(DataAccessPageStatic)},
 				new ListItemPage {Title = "Advanced Repository", PageType= typeof(DataAccessPageRepository)}, 
 				new ListItemPage {Title = "Access the Person Table", PageType= typeof(DataAccessPagePerson)} 
 			};

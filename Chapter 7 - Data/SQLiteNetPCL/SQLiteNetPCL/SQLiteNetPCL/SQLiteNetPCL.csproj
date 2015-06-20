@@ -11,7 +11,7 @@
     <RootNamespace>SQLiteNetPCL</RootNamespace>
     <AssemblyName>SQLiteNetPCL</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
   </PropertyGroup>
@@ -37,14 +37,12 @@
     <Compile Include="DataAccessPageDatabase.cs" />
     <Compile Include="DataAccessPagePerson.cs" />
     <Compile Include="DataAccessPageRepository.cs" />
-    <Compile Include="DataAccessPageStatic.cs" />
     <Compile Include="HomePage.cs" />
     <Compile Include="IDatabase.cs" />
     <Compile Include="IObject.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="ItemDatabaseBasic.cs" />
     <Compile Include="ItemDatabaseGeneric.cs" />
-    <Compile Include="ItemDatabaseStatic.cs" />
     <Compile Include="ItemRepository.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
