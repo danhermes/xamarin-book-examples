@@ -35,13 +35,13 @@ A Xamarin.Forms primer and a comparison of Xamarin.Forms vs. Platform-specific a
 <b>Chapter 3 - UI Design Using Layouts</b><br/>
 Layouts help us organize the positioning and formatting of controls, allowing us to structure and design the screens of our mobile app. 
 
-<b>Chapter 4- User Interaction Using Controls</b><br/>
+<b>Chapter 4 - User Interaction Using Controls</b><br/>
 Pickers, sliders, switches, and other mobile UI controls facilitate user interaction and data entry that is unique to the mobile user interface and differs from the PC/mouse interface, largely because of the use of gestures.
 
-<b>Chapter 5- Making a Scrollable List</b><br/>
+<b>Chapter 5 - Making a Scrollable List</b><br/>
 Lists are one of the most powerful methods of data display and selection in mobile apps.
 
-<b>Chapter 6- Navigation </b><br/>
+<b>Chapter 6 - Navigation </b><br/>
 Navigation lets a user traverse an app, move from screen to screen, and access features. Hierarchical, modal, navigation drawers, drill-down lists, and other key patterns make up the core of mobile UI navigation. State management is the handling of data passed between screens as the user navigates through the app. 
 
 <b>Chapter 7 - Data Access and  Data Binding</b><br/>
