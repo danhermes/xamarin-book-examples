@@ -3,8 +3,8 @@ Lists are one of the most powerful methods of data display and selection in mobi
 
 
 <ul>
-<li>ListExampleiOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.iOS examples</li>
+<li>ListExampleiOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.iOS</li>
 <li>ListViewExample.Xaml &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms XAML - UNDER CONSTRUCTION (sorry for the inconvenience)</li>
-<li>ListViewExample &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms C# examples</li>
-<li>ListViewExampleAndroid&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Android examples</li>  
+<li>ListViewExample &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms C#</li>
+<li>ListViewExampleAndroid&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Android</li>  
 </ul>
