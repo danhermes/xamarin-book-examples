@@ -14,7 +14,7 @@ namespace DependencyServiceExample
 
 		public void ButtonClick(object sender, EventArgs args)
 		{
-			var text = DependencyService.Get<CustomClass>().GoNative("platform-specific implementation complete!");
+			var text = DependencyService.Get<ICustomClass>().GoNative("platform-specific implementation complete!");
 			DisplayAlert("GoNative Called", text, "OK");
 		}
 	}

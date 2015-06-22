@@ -5,7 +5,7 @@ using DependencyServiceExample.iOS;
 
 namespace DependencyServiceExample.iOS
 {
-	class CustomClass_iOS : CustomClass
+	class CustomClass_iOS : ICustomClass
 	{
 		public CustomClass_iOS() { }
 

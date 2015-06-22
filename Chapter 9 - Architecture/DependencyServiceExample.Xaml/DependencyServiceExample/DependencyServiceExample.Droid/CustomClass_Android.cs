@@ -5,7 +5,7 @@ using DependencyServiceExample.Droid;
 
 namespace DependencyServiceExample.Droid
 {
-    class CustomClass_Android : CustomClass
+    class CustomClass_Android : ICustomClass
     {
         public CustomClass_Android() { }
 

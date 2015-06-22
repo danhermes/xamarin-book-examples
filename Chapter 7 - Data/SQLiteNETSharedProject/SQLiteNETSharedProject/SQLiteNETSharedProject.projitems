@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{BD08F420-B81E-46BD-A404-AE1AA88CA12F}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SQLiteNETSharedProject</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Person.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemDatabaseGeneric.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessPagePerson.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemDatabaseBasic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessPageRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessPageDatabase.cs" />
+  </ItemGroup>
+</Project>

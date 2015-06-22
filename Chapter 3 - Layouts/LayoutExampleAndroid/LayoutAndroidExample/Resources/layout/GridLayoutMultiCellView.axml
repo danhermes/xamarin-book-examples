@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="2"
+    android:columnCount="2">
+    <TextView
+        android:text="A TextView,"
+        android:textSize="30dip" />
+    <TextView
+        android:text=" and another!"
+        android:textSize="30dip" />
+    <Button
+        android:text="Click Me!"
+        android:textSize="20dip"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+</GridLayout>

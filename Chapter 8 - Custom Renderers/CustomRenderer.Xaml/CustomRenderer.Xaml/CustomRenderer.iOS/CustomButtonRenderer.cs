@@ -14,7 +14,8 @@ namespace CustomRenderer.iOS
 		{
 			base.OnElementChanged (e);
 
-			if (e.OldElement == null) {
+            		if (Control != null)
+            		{
 				Control.BackgroundColor = UIColor.Brown;
 			}
 		}

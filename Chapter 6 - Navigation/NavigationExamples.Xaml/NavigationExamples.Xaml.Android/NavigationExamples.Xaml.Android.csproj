@@ -89,6 +89,12 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\IconFirst.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NavigationExamples.Xaml\NavigationExamples.Xaml.csproj">
+      <Project>{0bd0aa11-e183-44a5-8224-4e25ae2da08f}</Project>
+      <Name>NavigationExamples.Xaml</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.3.4.6332\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.3.4.6332\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

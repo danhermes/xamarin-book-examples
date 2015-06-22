@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -31,12 +31,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\StackLayoutExample.xaml.cs">
-      <DependentUpon>StackLayoutExample.xaml</DependentUpon>
+    <Compile Include="Views\HomePage.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StackLayoutHorizontal.xaml.cs">
+      <DependentUpon>StackLayoutHorizontal.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.cs" />
-    <Compile Include="Views\StackLayoutExample2.xaml.cs">
-      <DependentUpon>StackLayoutExample2.xaml</DependentUpon>
+    <Compile Include="Views\StackLayoutVertical.xaml.cs">
+      <DependentUpon>StackLayoutVertical.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\FrameExample.xaml.cs">
       <DependentUpon>FrameExample.xaml</DependentUpon>
@@ -62,9 +66,6 @@
     <Compile Include="Views\GridExample3.xaml.cs">
       <DependentUpon>GridExample3.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Choices.xaml.cs">
-      <DependentUpon>Choices.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
@@ -79,15 +80,19 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Views\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\StackLayoutExample.xaml">
+    <EmbeddedResource Include="Views\HomePage.xaml">
+      <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\StackLayoutExample2.xaml">
+    <EmbeddedResource Include="Views\StackLayoutHorizontal.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\StackLayoutVertical.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FrameExample.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -111,9 +116,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\GridExample3.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\Choices.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
