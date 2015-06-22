@@ -2,13 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 x:Class="ControlExamples.Xaml.Controls"
+Title="Xamarin.Forms XAML Controls - Ch. 4"
 >
 <ContentPage.Padding>
 	<OnPlatform x:TypeArguments="Thickness">
 		<OnPlatform.iOS>10,20,10,5</OnPlatform.iOS>
 		<OnPlatform.WinPhone>10,0,10,5</OnPlatform.WinPhone>
-		Android
-	</OnPlatform>
+        <OnPlatform.Android>10,0,10,5</OnPlatform.Android>
+    </OnPlatform>
 </ContentPage.Padding>
 	<StackLayout HorizontalOptions="Center">
 		<Label x:Name="EventValue" Text="Value in Handler" />

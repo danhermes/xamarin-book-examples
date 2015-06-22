@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutExample.Xaml.Views.HomePage"
+             Title="Xamarin.Forms XAML Layout">
+    <ContentPage.Content>
+        <TableView Intent="Menu">
+            <TableView.Root>
+                <TableSection Title="Chapter 3 Examples">
+                    <TextCell Text = "StackLayout Horizontal" Tapped="navigateToPage" CommandParameter="StackLayoutHorizontal" />
+                    <TextCell Text = "StackLayout Vertical" Tapped="navigateToPage" CommandParameter="StackLayoutVertical" />
+                    <TextCell Text = "RelativeLayout" Tapped="navigateToPage" CommandParameter="RelativeLayoutExample" />
+                    <TextCell Text = "AbsoluteLayout" Tapped="navigateToPage" CommandParameter="AbsoluteLayoutExample" />
+                    <TextCell Text = "Grid" Tapped="navigateToPage" CommandParameter="GridExample1" />
+                    <TextCell Text = "Grid Using GridUnitType.Absolute" Tapped="navigateToPage" CommandParameter="GridExample2" />
+                    <TextCell Text = "Grid using GridUnitType.Star" Tapped="navigateToPage" CommandParameter="GridExample3" />
+                    <TextCell Text = "ContentView" Tapped="navigateToPage" CommandParameter="ContentViewExample" />
+                    <TextCell Text = "Frame" Tapped="navigateToPage" CommandParameter="FrameExample" />
+                </TableSection>
+            </TableView.Root>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>

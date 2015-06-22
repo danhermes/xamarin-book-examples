@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace LayoutExample.Xaml.Views
 {
-    public partial class StackLayoutExample : ContentPage
+    public partial class StackLayoutVertical : ContentPage
     {
-        public StackLayoutExample()
+        public StackLayoutVertical()
         {
             InitializeComponent();
         }

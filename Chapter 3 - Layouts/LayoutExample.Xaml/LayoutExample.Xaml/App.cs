@@ -9,17 +9,7 @@ namespace LayoutExample.Xaml
     {
         public App()
         {
-            MainPage = new NavigationPage(new Choices());
-            // The root page of your application
-            //MainPage = new GridExample1();
-            //MainPage = new GridExample2();
-            //MainPage = new GridExample3();
-            //MainPage = new StackLayoutExample();
-            //MainPage = new StackLayoutExample2();
-            //MainPage = new FrameExample();
-            //MainPage = new ContentViewExample();
-            //MainPage = new AbsoluteLayoutExample();
-            //MainPage = new RelativeLayoutExample();
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()
