@@ -3,6 +3,7 @@
 
 <p><q>This weighty book gives clear guidance that will help you build quality apps, starting with architectural considerations, and then jumping into practical code strategies.</q> - Bryan Costanich, Vice President, Xamarin</p>
 
+
 Many thanks to Xamarin MVP Jason Awbrey and Alex Blount (now a developer at Xamarin) for their XAML contributions.
 Ten thousand thanks to Xamarin MVP Ed Snider for his tech review of much of this code!
 
