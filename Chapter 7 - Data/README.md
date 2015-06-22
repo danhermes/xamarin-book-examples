@@ -7,6 +7,6 @@ SQLite is the database of choice for many Xamarin developers. Store and retrieve
 <li>DataBindingExamples &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms C# examples</li>
 <li>NavigationExamplesAndroid&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Android examples</li>  
 <li>NavigationExamplesiOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.iOS examples</li>
-<li>SQLiteNETSharedProject &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms C# examples</li>
-<li>SQLiteNetPCL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms C# examples</li>
+<li>SQLiteNETSharedProject &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms C#</li>
+<li>SQLiteNetPCL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms C#</li>
 </ul>
