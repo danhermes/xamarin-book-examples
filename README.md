@@ -24,8 +24,6 @@ For example, in chapter 3, the layout chapter, the solution folders look like th
 </ul>
 The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter. In other words, whether you're coding Xamarin.Forms C#, Xamarin.Forms XAML, Xamarin.Android, or Xamarin.iOS: <i>it's all here</i>.
 
-The book that goes with this code, <i>Xamarin Mobile Application Development</i>, is <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">available at Amazon.com here</a>.
-<br/>
 <h2>What Are These Chapters About?</h2>
 Here is the chapter content: (no code examples in Chapter 1)<br/>
 
@@ -76,6 +74,8 @@ What you’ll learn:
 
 This is book is for C# and ASP.NET developers, architects, and technical managers as well as many Android and iOS developers.
 
+The book that goes with this code, <i>Xamarin Mobile Application Development</i>, is <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">available at Amazon.com here</a>.
+<br/>
 
 
 
