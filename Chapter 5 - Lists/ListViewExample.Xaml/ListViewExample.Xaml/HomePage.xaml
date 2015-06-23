@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 x:Class="ListViewExample.Xaml.HomePage" 
-Title="Xamarin.Forms ListView">
+Title="Xamarin.Forms XAML ListView">
 <ContentPage.Padding>
 	<OnPlatform x:TypeArguments="Thickness">
 		<OnPlatform.iOS>10,20,10,5</OnPlatform.iOS>
@@ -13,13 +13,13 @@ Title="Xamarin.Forms ListView">
 	<TableView Intent="Menu">
 		<TableView.Root>
 			<TableSection Title="Chapter 5 Examples">
-				<TextCell Text="List of Strings" Command="{Binding NavigateCommand}" CommandParameter="ListViewStrings" />
-				<TextCell Text="Data Model" Command="{Binding NavigateCommand}" CommandParameter="ListViewDataModel" />
+				<TextCell Text="Bind to List of Strings" Command="{Binding NavigateCommand}" CommandParameter="ListViewStrings" />
+				<TextCell Text="Bind to a Data Model" Command="{Binding NavigateCommand}" CommandParameter="ListViewDataModel" />
 				<TextCell Text="Add Image" Command="{Binding NavigateCommand}" CommandParameter="ListViewImageCell" />
 				<TextCell Text="Customize ListView" Command="{Binding NavigateCommand}" CommandParameter="ListViewCustom" />
 				<TextCell Text="Customize with Image" Command="{Binding NavigateCommand}" CommandParameter="ListViewCustomWithImage"  />
 				<TextCell Text="Customize with Button" Command="{Binding NavigateCommand}" CommandParameter="ListViewButton"/>
-				<TextCell Text="Context Actions" Command="{Binding NavigateCommand}" CommandParameter="ListViewContextAction"/>
+				<TextCell Text="ContextAction" Command="{Binding NavigateCommand}" CommandParameter="ListViewContextAction"/>
 				<TextCell Text="Grouping Headers" Command="{Binding NavigateCommand}" CommandParameter="ListViewGrouped"/>
 				<TextCell Text="Custom Grouping Headers" Command="{Binding NavigateCommand}" CommandParameter="ListViewGroupedTemplate"/>
 				<TextCell Text="Scroll the List" Command="{Binding NavigateCommand}" CommandParameter="ListViewScroll" />
