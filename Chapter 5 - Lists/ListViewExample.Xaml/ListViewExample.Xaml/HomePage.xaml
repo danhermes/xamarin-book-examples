@@ -16,7 +16,7 @@ Title="Xamarin.Forms ListView">
 				<TextCell Text="List of Strings" Command="{Binding NavigateCommand}" CommandParameter="ListViewStrings" />
 				<TextCell Text="Data Model" Command="{Binding NavigateCommand}" CommandParameter="ListViewDataModel" />
 				<TextCell Text="Add Image" />
-				<TextCell Text="Customize ListView" />
+				<TextCell Text="Customize ListView" Command="{Binding NavigateCommand}" CommandParameter="ListViewCustom" />
 				<TextCell Text="Customize with Image" />
 				<TextCell Text="Customize with Button" Command="{Binding NavigateCommand}" CommandParameter="ListViewButton"/>
 				<TextCell Text="Context Actions" Command="{Binding NavigateCommand}" CommandParameter="ListViewContextAction"/>
