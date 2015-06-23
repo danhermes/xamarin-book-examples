@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+x:Class="ListViewExample.Xaml.ListViewButton"
+xmlns:local="clr-namespace:ListViewExample.Xaml;assembly=ListViewExample.Xaml" x:Name="ParentPage" Title="Fuck Me">
+<ContentPage.Padding>
+	<OnPlatform x:TypeArguments="Thickness">
+		<OnPlatform.iOS>10,20,10,5</OnPlatform.iOS>
+		<OnPlatform.WinPhone>10,0,10,5</OnPlatform.WinPhone>
+		<OnPlatform.Android>10,0,10,5</OnPlatform.Android>
+	</OnPlatform>
+</ContentPage.Padding>
+	<ListView ItemsSource="{Binding ListItems}" RowHeight="100" BackgroundColor="Black" HasUnevenRows="true">
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<ViewCell>
+					<StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Padding="5,10,5,15" BackgroundColor="Fuchsia">
+						<StackLayout HorizontalOptions="Start" Orientation="Vertical">
+							<Label HorizontalOptions="Start" FontSize="20" FontAttributes="Bold" TextColor="White" Text="{Binding Title}"/>
+							<Label HorizontalOptions="Start" FontSize="12" FontAttributes="Bold" TextColor="White" Text="{Binding Description}"/>	 
+						</StackLayout>
+						<StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal" WidthRequest="260">
+							<Label HorizontalOptions="Center" FontSize="25" TextColor="Aqua" Text="{Binding Price}"/>
+							<Button Text="Buy Now" BackgroundColor="Teal" HorizontalOptions="EndAndExpand" Command="{Binding BuyCommand}" />
+						</StackLayout>
+					</StackLayout>
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+</ContentPage>
