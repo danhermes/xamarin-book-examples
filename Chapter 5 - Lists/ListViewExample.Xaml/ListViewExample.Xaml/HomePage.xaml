@@ -22,7 +22,7 @@ Title="Xamarin.Forms ListView">
 				<TextCell Text="Context Actions" Command="{Binding NavigateCommand}" CommandParameter="ListViewContextAction"/>
 				<TextCell Text="Grouping Headers" Command="{Binding NavigateCommand}" CommandParameter="ListViewGrouped"/>
 				<TextCell Text="Custom Grouping Headers" Command="{Binding NavigateCommand}" CommandParameter="ListViewGroupedTemplate"/>
-				<TextCell Text="Scroll the List" />
+				<TextCell Text="Scroll the List" Command="{Binding NavigateCommand}" CommandParameter="ListViewScroll" />
 				<TextCell Text="Optimize Performance"  Command="{Binding NavigateCommand}" CommandParameter="ListViewPerformance"/>
 			</TableSection>
 		</TableView.Root>
