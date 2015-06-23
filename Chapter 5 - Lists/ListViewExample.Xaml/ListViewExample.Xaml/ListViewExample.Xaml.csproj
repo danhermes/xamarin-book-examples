@@ -44,7 +44,6 @@
     <Compile Include="ListViewButton.xaml.cs">
       <DependentUpon>ListViewButton.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DataTemplateButtonCommandBehavior.cs" />
     <Compile Include="ListViewContextAction.xaml.cs">
       <DependentUpon>ListViewContextAction.xaml</DependentUpon>
     </Compile>
