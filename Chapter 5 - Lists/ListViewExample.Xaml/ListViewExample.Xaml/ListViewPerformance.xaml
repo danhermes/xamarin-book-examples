@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ListViewExample.Xaml.ListViewPerformance">
+<ContentPage.Padding>
+	<OnPlatform x:TypeArguments="Thickness">
+		<OnPlatform.iOS>10,20,10,5</OnPlatform.iOS>
+		<OnPlatform.WinPhone>10,0,10,5</OnPlatform.WinPhone>
+		<OnPlatform.Android>10,0,10,5</OnPlatform.Android>
+	</OnPlatform>
+</ContentPage.Padding>
+	<ListView ItemsSource="{Binding ListItems}" RowHeight="80" BackgroundColor="Black" SelectedItem="{Binding SelectedListItem}">
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<ViewCell>
+					<StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Padding="25,10,55,15">
+						<StackLayout HorizontalOptions="StartAndExpand" Orientation="Vertical">
+							<Label HorizontalOptions="Start" FontSize="20" FontAttributes="Bold" TextColor="White" Text="{Binding Title}"/>
+							<Label HorizontalOptions="Start" FontSize="12" FontAttributes="Bold" TextColor="White" Text="{Binding Description}"/>	 
+						</StackLayout>
+						<Label HorizontalOptions="End" FontSize="25" TextColor="Aqua" Text="{Binding Price}"/>
+					</StackLayout>
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+</ContentPage>
