@@ -8,12 +8,6 @@ namespace ListViewExample.Xaml
 {
     public partial class ListViewButton : ContentPage
     {
-
-        public string TheText
-        {
-            get { return "Im a button i am!"; }
-        }
-
         public ListViewButton()
         {
             InitializeComponent();

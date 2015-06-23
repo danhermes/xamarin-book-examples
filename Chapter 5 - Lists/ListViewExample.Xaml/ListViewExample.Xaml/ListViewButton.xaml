@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 x:Class="ListViewExample.Xaml.ListViewButton"
-xmlns:local="clr-namespace:ListViewExample.Xaml;assembly=ListViewExample.Xaml" x:Name="ParentPage" Title="Fuck Me">
+xmlns:local="clr-namespace:ListViewExample.Xaml;assembly=ListViewExample.Xaml">
 <ContentPage.Padding>
 	<OnPlatform x:TypeArguments="Thickness">
 		<OnPlatform.iOS>10,20,10,5</OnPlatform.iOS>
@@ -14,7 +14,7 @@ xmlns:local="clr-namespace:ListViewExample.Xaml;assembly=ListViewExample.Xaml" x
 		<ListView.ItemTemplate>
 			<DataTemplate>
 				<ViewCell>
-					<StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Padding="5,10,5,15" BackgroundColor="Fuchsia">
+					<StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Padding="5,10,5,15">
 						<StackLayout HorizontalOptions="Start" Orientation="Vertical">
 							<Label HorizontalOptions="Start" FontSize="20" FontAttributes="Bold" TextColor="White" Text="{Binding Title}"/>
 							<Label HorizontalOptions="Start" FontSize="12" FontAttributes="Bold" TextColor="White" Text="{Binding Description}"/>	 
