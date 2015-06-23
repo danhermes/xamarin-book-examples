@@ -17,7 +17,7 @@ Title="Xamarin.Forms ListView">
 				<TextCell Text="Data Model" Command="{Binding NavigateCommand}" CommandParameter="ListViewDataModel" />
 				<TextCell Text="Add Image" />
 				<TextCell Text="Customize ListView" Command="{Binding NavigateCommand}" CommandParameter="ListViewCustom" />
-				<TextCell Text="Customize with Image" />
+				<TextCell Text="Customize with Image" Command="{Binding NavigateCommand}" CommandParameter="ListViewCustomWithImage"  />
 				<TextCell Text="Customize with Button" Command="{Binding NavigateCommand}" CommandParameter="ListViewButton"/>
 				<TextCell Text="Context Actions" Command="{Binding NavigateCommand}" CommandParameter="ListViewContextAction"/>
 				<TextCell Text="Grouping Headers" />
