@@ -48,7 +48,7 @@ SQLite is the database of choice for many Xamarin developers. Store and retrieve
 <b>Chapter 8 - Custom Renderers</b><br/>
 Extend the stock Xamarin.Forms controls and take advantage of platform-specific UI feature sets while maintaining a cross-platform approach using custom renderers.
 <br/><br/>
-<b>Chapter 9 – Cross-platform Architecture</b><br/>
+<b>Chapter 9 - Cross-platform Architecture</b><br/>
 Architect your cross-platform application by managing platform-specific code. Project-level options in Xamarin include Portable Class Libraries (PCLs) and shared projects. Cross-platform coding techniques include conditional compilation, dependency injection (DI), and file linking.
 <br/><br/>
 
