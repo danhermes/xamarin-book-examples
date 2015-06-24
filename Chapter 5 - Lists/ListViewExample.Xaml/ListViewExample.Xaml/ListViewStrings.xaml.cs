@@ -46,7 +46,7 @@ namespace ListViewExample.Xaml
             {
                 selectedItem = value;
                 OnPropertyChanged("SelectedItem");
-                displayAlertAction?.Invoke("Tapped", $"{selectedItem} was selected.", "OK");
+                displayAlertAction.Invoke("Tapped", selectedItem + " was selected.", "OK");
             }
         }
 

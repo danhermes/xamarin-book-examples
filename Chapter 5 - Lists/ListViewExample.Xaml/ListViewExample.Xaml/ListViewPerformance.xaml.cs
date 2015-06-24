@@ -48,7 +48,7 @@ namespace ListViewExample.Xaml
                 selectedListItem = value;
                 OnPropertyChanged("SelectedListItem");
                 if (selectedListItem != null)
-                    displayAlertAction?.Invoke("Tapped", $"{selectedListItem.Title} was selected.", "OK"); 
+                    displayAlertAction.Invoke("Tapped", selectedListItem.Title + " was selected.", "OK"); 
 
             }
         }
@@ -58,7 +58,7 @@ namespace ListViewExample.Xaml
             this.displayAlertAction = displayAlertAction;
 
             ListItems = Enumerable.Range(1, 500)
-                .Select(index => new ListItem { Source = "first.png", Title = $"{index}", Description = $"item number {index}", Price = $"${index}.00" })
+                .Select(index => new ListItem { Source = "first.png", Title = index.ToString(), Description = "item number " + index.ToString(), Price = "$" + index.ToString() + ".00" })
                 .ToList();
         }
 

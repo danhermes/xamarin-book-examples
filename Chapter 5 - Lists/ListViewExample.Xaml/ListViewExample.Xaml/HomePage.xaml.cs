@@ -37,7 +37,7 @@ namespace ListViewExample.Xaml
 
         async void NagivigateRequested(string pageName)
         {
-            var pageType = Type.GetType($"ListViewExample.Xaml.{pageName}");
+            var pageType = Type.GetType("ListViewExample.Xaml." + pageName);
             Page page = (Page)Activator.CreateInstance(pageType);
             await navigation.PushAsync(page);
         }

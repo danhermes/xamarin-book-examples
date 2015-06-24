@@ -52,12 +52,12 @@ namespace ListViewExample.Xaml
 
         void MoreRequested(ListItem listItem)
         {
-            displayAlertAction?.Invoke("More", $"{listItem.Title} more was clicked.", "OK");
+            displayAlertAction.Invoke("More", listItem.Title + " more was clicked.", "OK");
         }
 
         void DeleteRequested(ListItem listItem)
         {
-            displayAlertAction?.Invoke("Delete", $"{listItem.Title} delete was clicked.", "OK");
+            displayAlertAction.Invoke("Delete", listItem.Title + " delete was clicked.", "OK");
         }
 
 

@@ -51,7 +51,7 @@ namespace ListViewExample.Xaml
 
         void BuyRequested(ListItem listItem)
         {
-            displayAlertAction?.Invoke("Clicked", $"{listItem.Title} was clicked.", "OK");
+            displayAlertAction.Invoke("Clicked", listItem.Title + " was clicked.", "OK");
         }
             
         public class ListItem : BindableObject
