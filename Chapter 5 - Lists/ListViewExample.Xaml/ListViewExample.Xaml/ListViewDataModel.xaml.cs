@@ -13,6 +13,13 @@ namespace ListViewExample.Xaml
             InitializeComponent();
 
             BindingContext = new ListViewDataModelViewModel(DisplayAlert);
+
+        }
+
+        void ListViewItemTapped (object sender, ItemTappedEventArgs e)
+        {
+            ((ListViewDataModelViewModel)BindingContext).SelectedListItem = e.Item as ListViewDataModelViewModel.ListItem;
+            ((ListView)sender).SelectedItem = null;
         }
     }
 
