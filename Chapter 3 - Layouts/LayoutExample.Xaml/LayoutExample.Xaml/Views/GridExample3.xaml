@@ -12,7 +12,7 @@
 			<ColumnDefinition Width="1*" />
 			<ColumnDefinition Width="Auto" />
 		</Grid.ColumnDefinitions>
-		<Label Text="Im at 0,0" FontSize="30" FontAttributes="Bold" />
+		<Label Text="I'm at 0,0" FontSize="30" FontAttributes="Bold" />
 		<Label Text="Me? 1,1" FontSize="30" FontAttributes="Bold" TextColor="Black" BackgroundColor="Lime" Grid.Row="1" Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="2" />
 		<Label Text="2,2 here" FontSize="30" FontAttributes="Bold" TextColor="White" BackgroundColor="Red" Grid.Row="2" Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="1" />
 		<Label Text="I'm at 0,3" FontSize="30" FontAttributes="Bold" Grid.Row="3" Grid.Column="0" />

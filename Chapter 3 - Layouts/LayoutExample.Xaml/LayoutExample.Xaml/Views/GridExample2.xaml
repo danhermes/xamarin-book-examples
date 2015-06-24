@@ -4,7 +4,7 @@
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="200" />
-			<RowDefinition Height="1*" />
+            <RowDefinition Height="Auto" />
 			<RowDefinition Height="Auto" />
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
@@ -12,7 +12,7 @@
 			<ColumnDefinition Width="Auto" />
 			<ColumnDefinition Width="Auto" />
 		</Grid.ColumnDefinitions>
-		<Label Text="Im at 0,0" FontSize="30" FontAttributes="Bold" />
+		<Label Text="I'm at 0,0" FontSize="30" FontAttributes="Bold" />
 		<Label Text="Me? 1,1" FontSize="30" FontAttributes="Bold" TextColor="Black" BackgroundColor="Lime" Grid.Row="1" Grid.Column="1" />
 		<Label Text="2,2 here" FontSize="30" FontAttributes="Bold" TextColor="White" BackgroundColor="Red" Grid.Row="2" Grid.Column="2" />
 		<Label Text="I'm at 0,3" FontSize="30" FontAttributes="Bold" Grid.Row="3" Grid.Column="0" />

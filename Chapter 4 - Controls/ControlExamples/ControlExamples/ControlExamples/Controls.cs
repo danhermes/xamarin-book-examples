@@ -16,7 +16,7 @@ namespace ControlExamples
         public Controls()
 		{
 			eventValue = new Label();
-			eventValue.Text = "Value in Handler";
+			eventValue.Text = "Value in Event";
             pageValue = new Label();
             pageValue.Text = "Value in Page";
 

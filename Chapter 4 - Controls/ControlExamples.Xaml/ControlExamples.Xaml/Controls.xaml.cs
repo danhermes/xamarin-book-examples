@@ -37,7 +37,7 @@ namespace ControlExamples.Xaml
         {
             if (e.PropertyName == TimePicker.TimeProperty.PropertyName)
             {
-                EventValue.Text = TheTimePicker.Time.ToString();
+                PageValue.Text = TheTimePicker.Time.ToString();
             }
         }
 
@@ -49,7 +49,7 @@ namespace ControlExamples.Xaml
 
         void PickerSelectedIndexChanged(object sender, EventArgs e)
         {
-            EventValue.Text = ThePicker.Items[ThePicker.SelectedIndex];
+            PageValue.Text = ThePicker.Items[ThePicker.SelectedIndex];
         }
     }
 }
