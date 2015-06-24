@@ -15,6 +15,7 @@ namespace ListViewExample.Xaml
 
             BindingContext = new ListViewStringsViewModel(DisplayAlert);
         }
+
     }
 
     public class ListViewStringsViewModel : BindableObject
@@ -46,7 +47,8 @@ namespace ListViewExample.Xaml
             {
                 selectedItem = value;
                 OnPropertyChanged("SelectedItem");
-                displayAlertAction.Invoke("Tapped", selectedItem + " was selected.", "OK");
+                if (selectedItem != null)
+                    displayAlertAction.Invoke("Tapped", selectedItem + " was selected.", "OK");
             }
         }
 

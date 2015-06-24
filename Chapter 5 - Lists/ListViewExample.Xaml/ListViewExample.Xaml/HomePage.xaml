@@ -19,7 +19,7 @@ Title="Xamarin.Forms XAML ListView">
 				<TextCell Text="Customize ListView" Command="{Binding NavigateCommand}" CommandParameter="ListViewCustom" />
 				<TextCell Text="Customize with Image" Command="{Binding NavigateCommand}" CommandParameter="ListViewCustomWithImage"  />
 				<TextCell Text="Customize with Button" Command="{Binding NavigateCommand}" CommandParameter="ListViewButton"/>
-				<TextCell Text="ContextAction" Command="{Binding NavigateCommand}" CommandParameter="ListViewContextAction"/>
+				<TextCell Text="Add ContextAction" Command="{Binding NavigateCommand}" CommandParameter="ListViewContextAction"/>
 				<TextCell Text="Grouping Headers" Command="{Binding NavigateCommand}" CommandParameter="ListViewGrouped"/>
 				<TextCell Text="Custom Grouping Headers" Command="{Binding NavigateCommand}" CommandParameter="ListViewGroupedTemplate"/>
 				<TextCell Text="Scroll the List" Command="{Binding NavigateCommand}" CommandParameter="ListViewScroll" />
