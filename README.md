@@ -32,25 +32,25 @@ A Xamarin.Forms primer and a comparison of Xamarin.Forms vs. Platform-specific a
 <br/><br/>
 <b>Chapter 3 - UI Design Using Layouts</b><br/>
 Layouts help us organize the positioning and formatting of controls, allowing us to structure and design the screens of our mobile app. 
-<br/>
+<br/><br/>
 <b>Chapter 4 - User Interaction Using Controls</b><br/>
 Pickers, sliders, switches, and other mobile UI controls facilitate user interaction and data entry that is unique to the mobile user interface and differs from the PC/mouse interface, largely because of the use of gestures.
-<br/>
+<br/><br/>
 <b>Chapter 5 - Making a Scrollable List</b><br/>
 Lists are one of the most powerful methods of data display and selection in mobile apps.
-<br/>
+<br/><br/>
 <b>Chapter 6 - Navigation </b><br/>
 Navigation lets a user traverse an app, move from screen to screen, and access features. Hierarchical, modal, navigation drawers, drill-down lists, and other key patterns make up the core of mobile UI navigation. State management is the handling of data passed between screens as the user navigates through the app. 
-<br/>
+<br/><br/>
 <b>Chapter 7 - Data Access and  Data Binding</b><br/>
 SQLite is the database of choice for many Xamarin developers. Store and retrieve data locally by using SQLite.NET or ADO.NET. Using Xamarin.Forms data binding, fuse UI elements to your data models. Use the MVVM pattern by binding to a view model. 
-<br/>
+<br/><br/>
 <b>Chapter 8 - Custom Renderers</b><br/>
 Extend the stock Xamarin.Forms controls and take advantage of platform-specific UI feature sets while maintaining a cross-platform approach using custom renderers.
-<br/>
+<br/><br/>
 <b>Chapter 9 – Cross-platform Architecture</b><br/>
 Architect your cross-platform application by managing platform-specific code. Project-level options in Xamarin include Portable Class Libraries (PCLs) and shared projects. Cross-platform coding techniques include conditional compilation, dependency injection (DI), and file linking.
-<br/>
+<br/><br/>
 
 <h2>What Is the Book About?</h2>
 <br/>
