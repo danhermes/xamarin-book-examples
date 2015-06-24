@@ -55,13 +55,13 @@ Architect your cross-platform application by managing platform-specific code. Pr
 <h2>What Is the Book About?</h2>
 <br/>
 Xamarin Mobile Application Development is a hands-on Xamarin.Forms primer and a cross-platform reference for building native Android, iOS, and Windows Phone apps using C# and .NET. This book explains how to use Xamarin.Forms, Xamarin.Android, and Xamarin.iOS to build business apps for your customers and consumer apps for Google Play and the iTunes App Store. 
-<br/>
+<br/><br/>
 Learn how to leverage Xamarin.Forms to optimize cross-platform development using the most common UI pages, layouts, views, controls, and UI patterns. Combine these with platform-specific UI to craft a visually stunning and highly interactive mobile user experience.
-<br/>
+<br/><br/>
 Explore solution-building techniques from starter-to-enterprise to help you decouple your functional layers, manage your platform-specific code, and share your cross-platform classes for code reuse, testability, and maintainability.
-<br/>
+<br/><br/>
 This comprehensive recipe and reference book, featuring over 200 C# code examples with downloadable C# and XAML, addresses one of the most important and vexing problems in the software industry today: How do we effectively design and develop cross-platform mobile applications?
-<br/>
+<br/><br/>
 What you’ll learn:
 <ul>
 <li>How to build world-class mobile apps for iOS, Android, and Windows Phone using C#</li>
