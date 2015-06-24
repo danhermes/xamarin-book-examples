@@ -12,13 +12,17 @@
 			<DataTemplate>
 				<ViewCell>
 					<StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Padding="25,10,55,15">
-						<Image Source="{Binding Source}" HorizontalOptions="FillAndExpand" />
-						<StackLayout HorizontalOptions="StartAndExpand" Orientation="Vertical">
+                        <StackLayout HorizontalOptions="Start" Orientation="Vertical" Padding="3">
+                            <Image Source="{Binding Source}" HorizontalOptions="FillAndExpand" />
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="StartAndExpand" Orientation="Vertical" Padding="5">
 							<Label HorizontalOptions="Start" FontSize="20" FontAttributes="Bold" TextColor="White" Text="{Binding Title}"/>
 							<Label HorizontalOptions="Start" FontSize="12" FontAttributes="Bold" TextColor="White" Text="{Binding Description}"/>	 
 						</StackLayout>
-						<Label HorizontalOptions="End" FontSize="25" TextColor="Aqua" Text="{Binding Price}"/>
-					</StackLayout>
+                        <StackLayout HorizontalOptions="End" Orientation="Vertical" Padding="5">
+                            <Label HorizontalOptions="End" FontSize="25" TextColor="Aqua" Text="{Binding Price}"/>
+                        </StackLayout>
+                    </StackLayout>
 				</ViewCell>
 			</DataTemplate>
 		</ListView.ItemTemplate>

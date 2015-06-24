@@ -10,7 +10,7 @@ xmlns:local="clr-namespace:ListViewExample.Xaml;assembly=ListViewExample.Xaml">
 		<OnPlatform.Android>10,0,10,5</OnPlatform.Android>
 	</OnPlatform>
 </ContentPage.Padding>
-	<ListView ItemsSource="{Binding ListItems}" RowHeight="100" BackgroundColor="Black" HasUnevenRows="true">
+    <ListView ItemsSource="{Binding ListItems}" RowHeight="100" BackgroundColor="Black" HasUnevenRows="true" >
 		<ListView.ItemTemplate>
 			<DataTemplate>
 				<ViewCell>

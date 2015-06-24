@@ -14,6 +14,7 @@ namespace ListViewExample.Xaml
 
             BindingContext = new ListViewButtonViewModel(DisplayAlert);
         }
+
     }
 
     public class ListViewButtonViewModel : BindableObject
