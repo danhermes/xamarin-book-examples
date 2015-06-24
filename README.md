@@ -29,7 +29,7 @@ Here is the chapter content: (no code examples in Chapter 1)<br/>
 <br/>
 <b>Chapter 2 - Building Mobile User Interfaces</b><br/>
 A Xamarin.Forms primer and a comparison of Xamarin.Forms vs. Platform-specific approaches such as Xamarin.iOS and Xamarin.Android. Covers Xamarin.Forms Pages, Layouts, and Views.
-<br/>
+<br/><br/>
 <b>Chapter 3 - UI Design Using Layouts</b><br/>
 Layouts help us organize the positioning and formatting of controls, allowing us to structure and design the screens of our mobile app. 
 <br/>
