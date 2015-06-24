@@ -12,54 +12,14 @@ namespace ListViewExample.Xaml
         {
             InitializeComponent();
 
-            BindingContext = new ListViewCustomViewModel(DisplayAlert);
-        }
-    }
-
-    public class ListViewCustomViewModel : BindableObject
-    {
-
-        readonly Func<string, string, string, Task> displayAlertAction;
-
-        List<ListItem> listItems;
-        public List<ListItem> ListItems
-        {
-            get
-            {
-                return listItems;
-            }
-            set
-            {
-                listItems = value;
-                OnPropertyChanged("ListItems");
-            }
+            BindingContext = new ListViewCustomViewModel();
         }
 
-        ListItem selectedListItem;
-        public ListItem SelectedListItem
+        async void ListViewItemTapped (object sender, ItemTappedEventArgs e)
         {
-            get
-            {
-                return selectedListItem;
-            }
-            set
-            {
-                selectedListItem = value;
-                OnPropertyChanged("SelectedListItem");
-                if(selectedListItem != null)
-                    displayAlertAction.Invoke("Tapped", selectedListItem.Title + " was selected.", "OK");
-            }
-        }
-            
-        public ListViewCustomViewModel(Func<string, string, string, Task> displayAlertAction)
-        {
-            this.displayAlertAction = displayAlertAction;
-
-            ListItems = new List<ListItem> { 
-                new ListItem {Title = "First", Description="1st item", Price="$100.00"}, 
-                new ListItem {Title = "Second", Description="2nd item", Price="$200.00"},
-                new ListItem {Title = "Third", Description="3rd item", Price="$300.00"}
-            };
+            ListItem item = (ListItem)e.Item;
+            await DisplayAlert("Tapped", item.Title + " was selected.", "OK");
+            ((ListView)sender).SelectedItem = null;
         }
 
         public class ListItem : BindableObject
@@ -68,6 +28,32 @@ namespace ListViewExample.Xaml
             public string Title { get; set; }
             public string Description { get; set; }
             public string Price { get; set; }
+        }
+
+        public class ListViewCustomViewModel : BindableObject
+        {
+            List<ListItem> listItems;
+            public List<ListItem> ListItems
+            {
+                get
+                {
+                    return listItems;
+                }
+                set
+                {
+                    listItems = value;
+                    OnPropertyChanged("ListItems");
+                }
+            }
+
+            public ListViewCustomViewModel()
+            {
+                ListItems = new List<ListItem> { 
+                    new ListItem {Title = "First", Description="1st item", Price="$100.00"}, 
+                    new ListItem {Title = "Second", Description="2nd item", Price="$200.00"},
+                    new ListItem {Title = "Third", Description="3rd item", Price="$300.00"}
+                };
+            }           
         }
     }
 }

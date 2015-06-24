@@ -7,7 +7,7 @@
 		<OnPlatform.Android>10,0,10,5</OnPlatform.Android>
 	</OnPlatform>
 </ContentPage.Padding>
-	<ListView ItemsSource="{Binding ListItems}" RowHeight="80" BackgroundColor="Black" SelectedItem="{Binding SelectedListItem}">
+	<ListView ItemsSource="{Binding ListItems}" RowHeight="80" BackgroundColor="Black" ItemTapped="ListViewItemTapped" >
 		<ListView.ItemTemplate>
 			<DataTemplate>
 				<ViewCell>

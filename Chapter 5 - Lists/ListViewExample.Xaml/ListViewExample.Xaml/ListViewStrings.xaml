@@ -7,5 +7,5 @@
 		<OnPlatform.Android>10,0,10,5</OnPlatform.Android>
 	</OnPlatform>
 </ContentPage.Padding>
-    <ListView ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem}"/>
+    <ListView ItemsSource="{Binding Items}" ItemTapped="ListViewItemTapped"/>
 </ContentPage>

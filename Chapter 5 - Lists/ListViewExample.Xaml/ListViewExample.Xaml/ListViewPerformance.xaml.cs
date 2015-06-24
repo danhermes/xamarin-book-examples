@@ -13,53 +13,14 @@ namespace ListViewExample.Xaml
         {
             InitializeComponent();
 
-            BindingContext = new ListViewPerformanceViewModel(DisplayAlert);
-        }
-    }
-
-    public class ListViewPerformanceViewModel : BindableObject
-    {
-        Func<string, string, string, Task> displayAlertAction;
-
-        List<ListItem> listItems;
-        public List<ListItem> ListItems
-        {
-            get
-            {
-                return listItems;
-            }
-            set
-            {
-                listItems = value;
-                OnPropertyChanged("ListItems");
-            }
+            BindingContext = new ListViewPerformanceViewModel();
         }
 
-
-        ListItem selectedListItem;
-        public ListItem SelectedListItem
+        async void ListViewItemTapped (object sender, ItemTappedEventArgs e)
         {
-            get
-            {
-                return selectedListItem;
-            }
-            set
-            {
-                selectedListItem = value;
-                OnPropertyChanged("SelectedListItem");
-                if (selectedListItem != null)
-                    displayAlertAction.Invoke("Tapped", selectedListItem.Title + " was selected.", "OK"); 
-
-            }
-        }
-
-        public ListViewPerformanceViewModel(Func<string, string, string, Task> displayAlertAction)
-        {
-            this.displayAlertAction = displayAlertAction;
-
-            ListItems = Enumerable.Range(1, 500)
-                .Select(index => new ListItem { Source = "first.png", Title = index.ToString(), Description = "item number " + index.ToString(), Price = "$" + index.ToString() + ".00" })
-                .ToList();
+            ListItem item = (ListItem)e.Item;
+            await DisplayAlert("Tapped", item.Title + " was selected.", "OK");
+            ((ListView)sender).SelectedItem = null;
         }
 
         public class ListItem : BindableObject
@@ -69,6 +30,30 @@ namespace ListViewExample.Xaml
             public string Description { get; set; }
             public string Price { get; set; }
         }
+
+        public class ListViewPerformanceViewModel : BindableObject
+        {
+            List<ListItem> listItems;
+            public List<ListItem> ListItems
+            {
+                get
+                {
+                    return listItems;
+                }
+                set
+                {
+                    listItems = value;
+                    OnPropertyChanged("ListItems");
+                }
+            }
+
+            public ListViewPerformanceViewModel()
+            {
+                ListItems = Enumerable.Range(1, 500)
+                    .Select(index => new ListItem { Source = "first.png", Title = index.ToString(), Description = "item number " + index.ToString(), Price = "$" + index.ToString() + ".00" })
+                    .ToList();
+            }    
+        }         
     }
 }
 

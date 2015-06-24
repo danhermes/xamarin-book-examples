@@ -13,54 +13,41 @@ namespace ListViewExample.Xaml
         {
             InitializeComponent();
 
-            BindingContext = new ListViewStringsViewModel(DisplayAlert);
+            BindingContext = new ListViewStringsViewModel();
         }
 
-    }
-
-    public class ListViewStringsViewModel : BindableObject
-    {
-        readonly Func<string, string, string, Task> displayAlertAction;
-
-        List<string> items;
-        public List<string> Items
+        async void ListViewItemTapped (object sender, ItemTappedEventArgs e)
         {
-            get
-            {
-                return items;
-            }
-            set
-            {
-                items = value;
-                OnPropertyChanged("Items");
-            }
+            string item = (string)e.Item;
+            await DisplayAlert("Tapped", item + " was selected.", "OK");
+            ((ListView)sender).SelectedItem = null;
         }
 
-        string selectedItem;
-        public string SelectedItem
+        public class ListViewStringsViewModel : BindableObject
         {
-            get
+            List<string> items;
+            public List<string> Items
             {
-                return selectedItem;
-            }
-            set
-            {
-                selectedItem = value;
-                OnPropertyChanged("SelectedItem");
-                if (selectedItem != null)
-                    displayAlertAction.Invoke("Tapped", selectedItem + " was selected.", "OK");
-            }
-        }
-
-        public ListViewStringsViewModel(Func<string, string, string, Task> displayAlertAction)
-        {
-            this.displayAlertAction = displayAlertAction;
-            Items = new List<string> 
+                get
                 {
-                    "First",
-                    "Second",
-                    "Third"
-                };
+                    return items;
+                }
+                set
+                {
+                    items = value;
+                    OnPropertyChanged("Items");
+                }
+            }
+
+            public ListViewStringsViewModel()
+            {
+                Items = new List<string> 
+                    {
+                        "First",
+                        "Second",
+                        "Third"
+                    };
+            }
         }
     }
 }
