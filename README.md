@@ -71,7 +71,6 @@ What you’ll learn:
 <li>Data-binding, local data access, data synchronization, and web services for mobile apps</li>
 <li>Cross-platform architecture and design to maximize portability and code reuse</li>
 </ul>
-<br/>
 This is book is for C# and ASP.NET developers, architects, and technical managers as well as many Android and iOS developers.
 <br/><br/>
 The book that goes with this code, <i>Xamarin Mobile Application Development</i>, is <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">available at Amazon.com here</a>.
