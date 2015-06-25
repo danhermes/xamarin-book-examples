@@ -1,10 +1,12 @@
 # Xamarin Mobile Application Development 
-<img src="https://github.com/danhermes/xamarin-book-examples/blob/master/XamarinBookCover.png" alt="cover" align="right" style="padding-left:5px"> The xamarin-book-examples GitHub project contains the complete code examples for the book entitled <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin"><i>Xamarin Mobile Application Development</i></a> by Dan Hermes, published by Apress. This book is a three hundred and fifty page journey through Xamarin.Forms, Xamarin.iOS, and Xamarin.Android, covering the entire breadth of the Xamarin platform. These 200+ code examples are freely downloadable and include both C# and XAML. 
+<img src="https://github.com/danhermes/xamarin-book-examples/blob/master/XamarinBookCover.png" alt="cover" align="right" style="padding-left:5px"> The xamarin-book-examples GitHub project contains the complete code examples for the book entitled <i>Xamarin Mobile Application Development</i> by Dan Hermes, published by Apress. This book is a three hundred and fifty page journey through Xamarin.Forms, Xamarin.iOS, and Xamarin.Android, covering the entire breadth of the Xamarin platform. These 200+ code examples are freely downloadable and include both C# and XAML. 
 <br/>
 <p><q>This weighty book gives clear guidance that will help you build quality apps, starting with architectural considerations, and then jumping into practical code strategies.</q> - Bryan Costanich, Vice President, Xamarin</p>
 <br>
 Many thanks to Xamarin MVP Jason Awbrey and Alex Blount (now a developer at Xamarin) for their XAML contributions.
 Ten thousand thanks to Xamarin MVP Ed Snider for his tech review of much of this code!
+
+The book that goes with this code, Xamarin Mobile Application Development, is <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">available at Amazon.com here</a>. 
 
 <h2>What's In Here?</h2>
 
