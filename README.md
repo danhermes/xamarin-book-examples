@@ -69,8 +69,8 @@ What you’ll learn:
 <li>How to build world-class mobile apps for iOS, Android, and Windows Phone using C#</li>
 <li>How to organize your Xamarin code into a professional-grade application architecture</li>
 <li>The latest Xamarin techniques for cross-platform UI using Xamarin.Forms</li>
-<li>When and how to use platform-specific features such as UI and gesture handling</li>
-<li>Data-binding, local data access, data synchronization, and web services for mobile apps</li>
+<li>When and how to use platform-specific UI</li>
+<li>Data binding, local data access, enterprise cloud data solutions, and building a data access layer for mobile apps</li>
 <li>Cross-platform architecture and design to maximize portability and code reuse</li>
 </ul>
 This is book is for C# and ASP.NET developers, architects, and technical managers as well as many Android and iOS developers.
