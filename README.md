@@ -8,8 +8,6 @@ Ten thousand thanks to Xamarin MVP Ed Snider for his tech review of much of this
 
 The book that goes with this code, Xamarin Mobile Application Development, is <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">available at Amazon.com here</a>. 
 
-PUBLICATION DATE: est. June 30th, 2015
-
 <h2>What's In Here?</h2>
 
 The book covers both Xamarin.Forms and platform-specific techniques using Xamarin.iOS and Xamarin.Android so this code repository contains solutions for all three of those approaches in C# as well as in the equivalent XAML. (Note: In the book itself there is only C#, no XAML.) Chapter 2 starts with an intro example for just Xamarin.Forms, but Chapters 3-6 (the UI chapters) each contain <i>four</i> solution folders:
