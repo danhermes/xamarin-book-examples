@@ -19,10 +19,10 @@ The book covers both Xamarin.Forms and platform-specific techniques using Xamari
 </ul>
 For example, in chapter 3, the layout chapter, the solution folders look like this:
 <ul>
-<li>LayoutExample.Xaml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- This solution contains the Xamarin.Forms XAML bonus examples.</li>
-<li>LayoutExample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- This solution has the Xamarin.Forms C# book examples.</li>
-<li>LayoutExampleAndroid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Here is the Xamarin.Android book solution.</li>  
-<li>LayoutExampleiOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- And the Xamarin.iOS book solution.</li>
+<li>LayoutExample.Xaml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- This solution contains the Xamarin.Forms XAML examples.</li>
+<li>LayoutExample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- This solution has the Xamarin.Forms C# examples.</li>
+<li>LayoutExampleAndroid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Here is the Xamarin.Android solution.</li>  
+<li>LayoutExampleiOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- And the Xamarin.iOS solution.</li>
 </ul>
 The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter. In other words, whether you're coding Xamarin.Forms C#, Xamarin.Forms XAML, Xamarin.Android, or Xamarin.iOS: <i>it's all here</i>.
 
